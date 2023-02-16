@@ -1,0 +1,16 @@
+{% comment %}
+*   
+*   Example: {% include page-image im_id=''%}
+*   
+{% endcomment %}
+
+{% assign id = include.im_id %}
+{% assign img = page.images | where:"id", page.image_id %}
+
+<div>
+{% for item in img %}
+	<p align="center">
+	<img src = "{{ site.urlimg }}{{ item.image_name }}" {% if item.image_title %}title = "{{ item.image_title }}"{% endif %} {% if item.image_alt %}alt = "{{ item.image_alt }}"{% endif %} width="90%"/>
+	</p><br>
+{% endfor %}
+</div>

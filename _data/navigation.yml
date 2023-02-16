@@ -1,0 +1,48 @@
+- title: Home
+  url: /
+  side: left
+
+- title: Research
+  url: /research/
+  side: left     
+  dropdown:
+  - title: Metabolic Imaging Group
+    url: /research/metabolic/
+  - title: Platform and Methods Group
+    url: /research/platform/
+  - title: Cerebrovascular Imaging Group
+    url: /research/vascular/
+  - title: Pre-clinical Imaging Group
+    url: /research/preclinical/
+  - title: RF and Safety Group
+    url: /research/RF/
+  - title: MR reconstruction group
+    url: /research/recon/
+
+- title: About us
+  url: /about/
+  side: left
+  dropdown:
+  - title: Research team
+    url: /about/team/
+  - title: Photos
+    url: /about/photos/
+  - title: Dissertations
+    url: /about/thesis/
+
+- title: facilities
+  url: /faciliteis/
+  side: left
+  dropdown:
+  - title: High field scanners
+    url: /facilities/scanners/
+  - title: Hardware and equipment
+    url: /facilities/hardware/ 
+  - title: RF Coil and Mechanics Lab
+    url: /facilities/coillab/ 
+  - title: Software and tools
+    url: /facilities/software/ 
+ 
+- title: Contact
+  url: /contact/
+  side: left
