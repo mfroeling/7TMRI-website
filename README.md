@@ -1,1 +1,1 @@
-code to generate www.muscle-atlas.org website
+code to generate www.7TMRI.nl website.
