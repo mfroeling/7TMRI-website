@@ -78,10 +78,6 @@ exclude:
     - README.md
     - INSTALL.md
     - vendor
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
 
 
 # The language setting is used in /includes/header.html for html-settings
