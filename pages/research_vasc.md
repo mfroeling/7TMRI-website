@@ -5,7 +5,7 @@ permalink: /research/vascular/
 header:
   image_fullwidth: "scanner.jpg"
 
-title: "Cerebrovascular Imaging Group"
+title: "Vascular Brain Imaging Group"
 subheadline: 'subtitle'
 teaser: 'teaser'
 
