@@ -26,7 +26,6 @@ The Metabolic Imaging group aims at developing robust and highly sensitive metab
 The MRS-group develops 1H, 2H, 31P, 13C, 19F and 23Na metabolic imaging methods in the brain and body for use at ultra-high field (7 Tesla) MR systems.
 
 
-
 Principal investigators:
 
 - ***Jannie Wijnen*** (scientific manager)  
@@ -42,16 +41,13 @@ Metabolic Imaging methods in brain and body ultra-high field (7 Tesla) MR system
 
 <br>
 ### Ongoing research projects
-<br>
 {% include list-research tag="research" grp='grp_meta' %}
 
 <br>
 ### Completed research projects
-<br>
 {% include list-research tag="research" grp='grp_meta' %}
 
 <br>
-### Other reseach groups
-<br>
+### Our research groups
 {% include list-pages tag="groups" %}
 

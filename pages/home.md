@@ -1,6 +1,6 @@
 ---
 
-title: "The Muscle Atlas Project"
+title: "7T MRI group Utrecht"
 permalink: /
 
 layout: frontpage
