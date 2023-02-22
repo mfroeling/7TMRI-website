@@ -9,7 +9,7 @@ header:
 title: "RF Coil and Mechanics Lab"
 subheadline: 'bla bla bla'
 
-tags: faciliteis
+tags: facilities
 
 ---
 
@@ -17,15 +17,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 ### Ongoing projects
-<br>
 {% include list-research tag="projects" grp="grp_coil" %}
 
 <br>
 ### Completed projects
-<br>
 {% include list-research tag="projects_old" grp="grp_coil" %}
 
+
 <br>
-### Other facilities
-<br>
-{% include list-pages tag="faciliteis" %}
+### Our cacilities
+{% include list-pages tag="facilities" %}

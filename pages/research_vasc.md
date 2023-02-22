@@ -42,15 +42,12 @@ Applications encompass neurological and cerebrovascular diseases, neurovascular 
 
 <br>
 ### Ongoing research projects
-<br>
 {% include list-research tag="research" grp='grp_vasc' %}
 
 <br>
 ### Completed research projects
-<br>
 {% include list-research tag="research" grp='grp_vasc' %}
 
 <br>
-### Other reseach groups
-<br>
+### Our research groups
 {% include list-pages tag="groups" %}

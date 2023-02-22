@@ -10,7 +10,7 @@
     url: /research/metabolic/
   - title: Platform and Methods Group
     url: /research/platform/
-  - title: Cerebrovascular Imaging Group
+  - title: Vascular Brain Imaging Group
     url: /research/vascular/
   - title: Pre-clinical Imaging Group
     url: /research/preclinical/
@@ -29,6 +29,10 @@
     url: /about/photos/
   - title: Dissertations
     url: /about/thesis/
+  - title: Interships
+    url: /about/intern/
+  - title: Job opportunities
+    url: /about/jobs/
 
 - title: facilities
   url: /faciliteis/

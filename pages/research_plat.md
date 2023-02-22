@@ -34,15 +34,12 @@ System engineer and scientific manager of the next generation multi-nuclei 7T pl
 
 <br>
 ### Ongoing research projects
-<br>
 {% include list-research tag="research" grp='grp_plat' %}
 
 <br>
 ### Completed research projects
-<br>
 {% include list-research tag="research" grp='grp_plat' %}
 
 <br>
-### Other reseach groups
-<br>
+### Our research groups
 {% include list-pages tag="groups" %}

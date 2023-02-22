@@ -23,15 +23,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 ### Ongoing research projects
-<br>
 {% include list-research tag="research" grp='grp_rf' %}
 
 <br>
 ### Completed research projects
-<br>
 {% include list-research tag="research" grp='grp_rf' %}
 
 <br>
-### Other reseach groups
-<br>
-{% include list-pages tag="groups" %}}
+### Our research groups
+{% include list-pages tag="groups" %}

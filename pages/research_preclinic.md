@@ -32,15 +32,12 @@ the laboratory is equipped with two state-of-the-art animal MR systems with fiel
 
 <br>
 ### Ongoing research projects
-<br>
 {% include list-research tag="research" grp='grp_pre' %}
 
 <br>
 ### Completed research projects
-<br>
 {% include list-research tag="research" grp='grp_pre' %}
 
 <br>
-### Other reseach groups
-<br>
+### Our research groups
 {% include list-pages tag="groups" %}

@@ -9,7 +9,7 @@ header:
 title: "High field scanners"
 subheadline: 'bla bla bla'
 
-tags: faciliteis
+tags: facilities
 
 ---
 
@@ -17,5 +17,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 ### Other facilities
-<br>
-{% include list-pages tag="faciliteis" %}
+{% include list-pages tag="facilities" %}
