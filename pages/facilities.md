@@ -13,7 +13,7 @@ tags: facilities
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our facility includes a 7T human whole body MRI system with several different consoles, a 9.4T and 7T preclinal MRI system with an identical console, RF coil labs, mechanical lab, RF cage for preparing 14T MRI (excluding magnet), and a room preped for a 7T METAscan.
 
 <br>
 ### Our cacilities
