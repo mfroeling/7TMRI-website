@@ -7,7 +7,7 @@ header:
     image_fullwidth: "banners/scanners.png"
 
 title: "7T MRI facilities"
-subheadline: 'bla bla bla'
+subheadline: 'Toys for researchers'
 
 tags: facilities
 

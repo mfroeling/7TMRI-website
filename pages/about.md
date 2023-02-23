@@ -7,7 +7,7 @@ header:
     image_fullwidth: "banners/scanner.png"
 
 title: "7T-MRI in Utrecht"
-subheadline: 'bla bla bla'
+subheadline: 'Meet the team'
 
 ---
 
