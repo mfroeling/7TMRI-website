@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/platform/
 header:
-  image_fullwidth: "platform.png"
+  image_fullwidth: "banners/platform.png"
 
 title: "Platform and methods"
 subheadline: 'subtitle'

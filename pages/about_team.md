@@ -4,7 +4,7 @@ layout: page
 permalink: /about/team/
 
 header:
-    image_fullwidth: "group.png"
+    image_fullwidth: "banners/group.png"
 
 title: "The 7T team"
 subheadline: 'bla bla bla'

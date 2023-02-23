@@ -4,7 +4,7 @@ layout: page
 permalink: /faciliteis/
 
 header:
-    image_fullwidth: "scanners.png"
+    image_fullwidth: "banners/scanners.png"
 
 title: "7T MRI facilities"
 subheadline: 'bla bla bla'

@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/metabolic/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "Metabolic imaging group"
 subheadline: 'subtitle'

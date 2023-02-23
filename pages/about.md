@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 
 header:
-    image_fullwidth: "scanner.jpg"
+    image_fullwidth: "banners/scanner.png"
 
 title: "7T-MRI in Utrecht"
 subheadline: 'bla bla bla'
