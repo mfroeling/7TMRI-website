@@ -5,7 +5,7 @@
 {% endcomment %}
 
 {% assign id = include.im_id %}
-{% assign img = page.images | where:"id", page.image_id %}
+{% assign img = page.images | where: "image_id", id %}
 
 <div>
 {% for item in img %}

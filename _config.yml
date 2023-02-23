@@ -76,6 +76,7 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - HOWTO.docx
     - INSTALL.md
     - vendor
 
