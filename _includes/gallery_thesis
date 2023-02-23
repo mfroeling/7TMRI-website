@@ -34,11 +34,12 @@
 		<li><a href="{{ site.urlimg }}{{ item.image_url }}">
 			<img 
 				{% if item.caption %}data-caption="{{ item.caption }}"{% endif %}
+				href="{{item.link}}" target="_blank"
 				src="{{ site.urlimg }}{{ thumb_url }}"
 				alt="{{ item.caption }}"
 				title="{{ item.title }}"
 		></a><br>
-		<a href="{{item.link}}">{{item.name}} - {{item.year}}</a>
+		<a href="{{item.link}}" target="_blank">{{item.name}} - {{item.year}}</a>
 		</li>
 		{% endfor %}
 	</ul>
