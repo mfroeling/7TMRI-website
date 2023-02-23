@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/
 header: 
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "7T research in Utrecht"
 subheadline: 'What do we do'

@@ -4,7 +4,7 @@ layout: page
 permalink: /about/photos/
 
 header:
-    image_fullwidth: "photos.png"
+    image_fullwidth: "banners/photos.png"
 
 title: "Group photos"
 subheadline: 'bla bla bla'

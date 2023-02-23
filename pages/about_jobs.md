@@ -4,7 +4,7 @@ layout: page
 permalink: /about/jobs/
 
 header:
-    image_fullwidth: "scanner.png"
+    image_fullwidth: "banners/scanner.png"
 
 title: "Job Oppertunities"
 subheadline: 'bla bla bla'

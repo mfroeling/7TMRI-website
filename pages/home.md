@@ -7,7 +7,7 @@ layout: frontpage
 homepage: true
 
 header:
-    image_fullwidth: "scanner.jpg"
+    image_fullwidth: "banners/scanner.png"
 
 widget1:
   title: "Research"

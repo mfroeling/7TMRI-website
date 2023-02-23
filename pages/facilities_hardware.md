@@ -4,7 +4,7 @@ layout: page
 permalink: /facilities/hardware/ 
 
 header:
-    image_fullwidth: "hardware.png"
+    image_fullwidth: "banners/hardware.png"
 
 title: "Hardware and equipment"
 subheadline: 'bla bla bla'

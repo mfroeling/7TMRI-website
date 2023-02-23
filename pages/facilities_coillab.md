@@ -4,7 +4,7 @@ layout: page
 permalink: /facilities/coillab/ 
 
 header:
-    image_fullwidth: "coillab.png"
+    image_fullwidth: "banners/coillab.png"
 
 title: "RF Coil and Mechanics Lab"
 subheadline: 'bla bla bla'

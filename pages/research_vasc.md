@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/vascular/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "Vascular Brain Imaging Group"
 subheadline: 'subtitle'
