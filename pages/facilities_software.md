@@ -4,7 +4,7 @@ layout: page
 permalink: /facilities/software/ 
 
 header:
-    image_fullwidth: "software.png"
+    image_fullwidth: "banners/software.png"
 
 title: "Software and tools"
 subheadline: 'bla bla bla'

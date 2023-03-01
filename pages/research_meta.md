@@ -3,11 +3,11 @@
 layout: page
 permalink: /research/metabolic/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "Metabolic imaging group"
-subheadline: 'subtitle'
-teaser: 'teaser text'
+subheadline: 'MRSI of 1H and X-nuclei, body, brain'
+teaser: 'Exploring dynamic metabolic processes in the human body and brain'
 
 images:
   - image_id: 'im_1'
@@ -25,19 +25,12 @@ The Metabolic Imaging group aims at developing robust and highly sensitive metab
 
 The MRS-group develops 1H, 2H, 31P, 13C, 19F and 23Na metabolic imaging methods in the brain and body for use at ultra-high field (7 Tesla) MR systems.
 
+Robust and fast metabolic imaging methods for pediatric metabolic disorders and brain tumors
 
-Principal investigators:
+MR imaging and spectroscopy of metabolism and mitochondrial function in metabolic disorders 
 
-- ***Jannie Wijnen*** (scientific manager)  
-Robust and fast metabolic imaging methods for pediatric metabolic disorders and brain tumors.
-
-- ***Jeanine Prompers*** (scientific director)  
-MR imaging and spectroscopy of metabolism and mitochondrial function in metabolic disorders.
-
-- ***Alex Bhogal***  
 Functional metabolic imaging of cerebral physiology in brain disorders
-Metabolic Imaging methods in brain and body  ultra-high field (7 Tesla) MR systems
-Metabolic Imaging methods in brain and body ultra-high field (7 Tesla) MR systems
+
 
 <br>
 ### Ongoing research projects

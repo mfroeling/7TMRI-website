@@ -4,7 +4,7 @@ layout: page
 permalink: /about/research/
 
 header:
-    image_fullwidth: "scanner.jpg"
+    image_fullwidth: "banners/scanner.png"
 
 title: "List of ongoing and previous research"
 subheadline: 'bla bla bla'

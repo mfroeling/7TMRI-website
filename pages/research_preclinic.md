@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/preclinical/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "Pre-clinical Imaging Group"
 subheadline: 'subtitle'

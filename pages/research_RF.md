@@ -3,7 +3,7 @@
 layout: page
 permalink: /research/RF/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "RF and Safety Group"
 subheadline: 'subtitle'

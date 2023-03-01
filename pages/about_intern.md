@@ -4,7 +4,7 @@ layout: page
 permalink: /about/intern/
 
 header:
-    image_fullwidth: "scanner.png"
+    image_fullwidth: "banners/scanner.png"
 
 title: "Internships"
 subheadline: 'bla bla bla'

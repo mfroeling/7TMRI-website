@@ -4,7 +4,7 @@ layout: page
 permalink: /facilities/scanners/
 
 header:
-    image_fullwidth: "scanners.png"
+    image_fullwidth: "banners/scanners.png"
 
 title: "High field scanners"
 subheadline: 'bla bla bla'
