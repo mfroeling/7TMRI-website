@@ -5,7 +5,7 @@ permalink: /research/vascular/
 header:
   image_fullwidth: "scanner.jpg"
 
-title: "Vascular Brain Imaging Group"
+title: "Vascular Brain Imaging Group TESTING TESTING"
 subheadline: 'subtitle'
 teaser: 'teaser'
 
@@ -32,10 +32,10 @@ Principal investigators:
 - ***Jeroen Siero (Scientific Manager, PI)***  
 High resolution 4D vascular imaging and analysis methods for unraveling brain physiology of hemodynamics in diseases.
 
-- ***Jaco Zwanenburg***  
+- ***Jaco Zwanenburg (PI)***  
 High field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
 
-- ***Natalia Petridou (PI***  
+- ***Natalia Petridou (PI)***  
 High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
 
 
@@ -45,7 +45,7 @@ High field high resolution functional and structural MRI, neurovascular coupling
 
 <br>
 ### Completed research projects
-{% include list-research tag="research" grp='grp_vasc' %}
+{% include list-research tag="research_old" grp='grp_vasc' %}
 
 <br>
 ### Our research groups
