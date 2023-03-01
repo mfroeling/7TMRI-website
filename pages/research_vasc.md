@@ -3,9 +3,9 @@
 layout: page
 permalink: /research/vascular/
 header:
-  image_fullwidth: "banners/scanner.png"
+  image_fullwidth: "scanner.jpg"
 
-title: "Vascular Brain Imaging Group TESTING TESTING"
+title: "Vascular Brain Imaging Group"
 subheadline: 'subtitle'
 teaser: 'teaser'
 
@@ -38,6 +38,7 @@ High field methods targeting vascular- and intracranial fluid dynamics including
 - ***Natalia Petridou (PI)***  
 High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
 
+- ***Alex Bhogal (PI) ***
 
 <br>
 ### Ongoing research projects
@@ -45,7 +46,7 @@ High field high resolution functional and structural MRI, neurovascular coupling
 
 <br>
 ### Completed research projects
-{% include list-research tag="research_old" grp='grp_vasc' %}
+{% include list-research tag="research" grp='grp_vasc' %}
 
 <br>
 ### Our research groups
