@@ -6,8 +6,8 @@ header:
   image_fullwidth: "banners/scanner.png"
 
 title: "Metabolic imaging group"
-subheadline: 'MRSI of 1H and X-nuclei, body, brain'
-teaser: 'Exploring dynamic metabolic processes in the human body and brain'
+subheadline: 'Magnetic Resonance Spectroscopy x-nuclei, body, brain'
+teaser: 'Imaging of metabolite levels to explore dynamic metabolic processes in the human body and brain'
 
 images:
   - image_id: 'im_1'
@@ -23,18 +23,17 @@ The Metabolic Imaging group aims at developing robust and highly sensitive metab
 
 {% include page-image im_id="im_1" %}
 
-The MRS-group develops 1H, 2H, 31P, 13C, 19F and 23Na metabolic imaging methods in the brain and body for use at ultra-high field (7 Tesla) MR systems.
-
-Robust and fast metabolic imaging methods for pediatric metabolic disorders and brain tumors
-
-MR imaging and spectroscopy of metabolism and mitochondrial function in metabolic disorders 
-
-Functional metabolic imaging of cerebral physiology in brain disorders
+The MRS-group develops 1H, 2H, 31P, 13C, 19F and 23Na metabolic imaging methods in the brain and body for use at ultra-high field (7 Tesla) MR systems. We focus on fast and robust methods including image reconstruction and image analysis tools.
 
 
 <br>
 ### Ongoing research projects
 {% include list-research tag="research" grp='grp_meta' %}
+MR imaging and metabolic imaging in adult and pediatric brain tumors
+
+MR imaging and spectroscopy of metabolism and mitochondrial function in metabolic disorders 
+
+Functional metabolic imaging of cerebral physiology in brain disorders
 
 <br>
 ### Completed research projects
