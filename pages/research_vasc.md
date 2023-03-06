@@ -19,7 +19,7 @@ tags: groups
 
 ---
 
-The Cerebrovascular Imaging group’s mission is the development of high field MRI methods that target the cerebrovascular structure and function with high sensitivity and precision, and their application in brain imaging in health and disease.
+The Vascular Brain Imaging group’s mission is the development of high field MRI methods that target the cerebrovascular structure and function with high sensitivity and precision, and their application in brain imaging in health and disease.
 
 {% include page-images %}
 
@@ -29,16 +29,15 @@ Applications encompass neurological and cerebrovascular diseases, neurovascular 
 
 Principal investigators:
 
-- ***Jeroen Siero***  
-High resolution 4D vascular imaging methods and analysis pipelines for unraveling brain physiology of hemodynamics in diseases
-
-- ***Natalia Petridou***  
-High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
+- ***Jeroen Siero (Scientific Manager, PI)***  
+High resolution 4D vascular imaging and analysis methods for unraveling brain physiology of hemodynamics in diseases.
 
 - ***Jaco Zwanenburg***  
 High field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
-Applications encompass neurological and cerebrovascular diseases, neurovascular coupling, and neuroscience. 
-Applications encompass neurological and cerebrovascular diseases, neurovascular coupling, and neuroscience.
+
+- ***Natalia Petridou (PI***  
+High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
+
 
 <br>
 ### Ongoing research projects
