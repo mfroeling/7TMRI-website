@@ -1,6 +1,6 @@
 ---
 
-title: "7T MRI group Utrecht"
+title: "High field MRI group Utrecht"
 permalink: /
 
 layout: frontpage
@@ -29,9 +29,5 @@ widget3:
 
 ---
 
-<div align="center" ><h1>Welcome to the 7T website!</h1></div>
-<div align="center" >Welcome to the website of the high field MRI research group of the University Medical Center Utrecht</div>
-
-
-
-
+<div align="center"><h1>Welcome to the high field MRI website!</h1></div>
+<div align="center">Welcome to the website of the high field MRI research group of the University Medical Center Utrecht</div>
