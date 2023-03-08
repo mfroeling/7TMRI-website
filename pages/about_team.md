@@ -79,7 +79,7 @@ tags: about
 - Lieke van den Wildenberg
 - Leonard Seelen
 
-### Interns
+### Students
 
 - Lyanne Bude
 - Max Diegast
