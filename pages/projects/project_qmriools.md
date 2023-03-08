@@ -21,7 +21,7 @@ tags:
 
 ---
 
-More information about QMRITools can be found on the [QMRITools website](https://www.qmritools.com/). 
+More information about QMRITools can be found on the [QMRITools website](https://www.qmritools.com/).
 
 ### About
 
@@ -50,20 +50,17 @@ documentation pages and demonstrations for each toolbox.
 
 When using the toolbox please cite one of the following references:
 
-1.  Froeling M: *QMRTools: a Mathematica toolbox for quantitative MRI
+1. Froeling M: *QMRTools: a Mathematica toolbox for quantitative MRI
     analysis*. J Open Source Softw 2019; 4:1204.
     [link](https://joss.theoj.org/papers/ef8bfb6c31499845d353b6a5af0d6300){:target="_blank"}
-2.  Froeling M, et al.: *Reproducibility of diffusion tensor imaging in
+2. Froeling M, et al.: *Reproducibility of diffusion tensor imaging in
     human forearm muscles at 3.0 T in a clinical setting*. Magn Reson Med
     2010; 64:1182-1190.
     [link](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.22477){:target="_blank"}
-3.  Froeling M, et al.: *Diffusion-tensor MRI reveals the complex muscle
+3. Froeling M, et al.: *Diffusion-tensor MRI reveals the complex muscle
     architecture of the human forearm*. J Magn Reson Imaging 2012;
     36:237-248.
     [link](https://onlinelibrary.wiley.com/doi/10.1002/jmri.23608){:target="_blank"}
-4.  Schlaffke L, et al.: *Multi‐center evaluation of stability and reproducibility of 
-	quantitative MRI measures in healthy calf muscles*. NMR Biomed. 2019;32:e4119
-	[link](https://onlinelibrary.wiley.com/doi/full/10.1002/nbm.4119){:target="_blank"}
-
-
-
+4. Schlaffke L, et al.: *Multi‐center evaluation of stability and reproducibility of
+   quantitative MRI measures in healthy calf muscles*. NMR Biomed. 2019;32:e4119
+   [link](https://onlinelibrary.wiley.com/doi/full/10.1002/nbm.4119){:target="_blank"}

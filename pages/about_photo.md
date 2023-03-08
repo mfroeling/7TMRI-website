@@ -46,6 +46,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% include gallery %}
 
-<br>
 ### About us
+
 {% include list-pages tag="about" %}

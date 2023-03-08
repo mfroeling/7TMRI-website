@@ -32,14 +32,14 @@ Development of a multi transmit RF and multi-nuclei 7T platform with and digital
 - ***Martijn Froeling***  
 System engineer and scientific manager of the next generation multi-nuclei 7T platform.
 
-<br>
 ### Ongoing research projects
+
 {% include list-research tag="research" grp='grp_plat' %}
 
-<br>
 ### Completed research projects
+
 {% include list-research tag="research" grp='grp_plat' %}
 
-<br>
 ### Our research groups
+
 {% include list-pages tag="groups" %}

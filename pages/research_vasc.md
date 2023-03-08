@@ -38,15 +38,14 @@ High field methods targeting vascular- and intracranial fluid dynamics including
 - ***Natalia Petridou (PI***  
 High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
 
-
-<br>
 ### Ongoing research projects
+
 {% include list-research tag="research" grp='grp_vasc' %}
 
-<br>
 ### Completed research projects
+
 {% include list-research tag="research" grp='grp_vasc' %}
 
-<br>
 ### Our research groups
+
 {% include list-pages tag="groups" %}

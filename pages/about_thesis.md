@@ -466,6 +466,6 @@ cerebral small vessels with 7T MRI"
 
 {% include gallery_thesis %}
 
-<br>
 ### About us
+
 {% include list-pages tag="about" %}

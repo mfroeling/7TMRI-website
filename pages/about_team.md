@@ -13,75 +13,79 @@ tags: about
 
 ---
 
-Profs <br>
-Dennis Klomp <br> 
-Rick Dijkhuizen <br>
-<br>
-Associate profs <br>
-Jaco Zwanenburg <br>
-Jannie Wijnen <br>
-Natalia Petridou <br>
-Hans Hoogduin <br>
-Jeanine Prompers <br>
-Jeroen Siero <br>
-<br>
-Assistant profs <br>
-Martijn Froeling <br>
-Alexander Raaijmakers <br>
-Evita Wiegers <br>
-Alex Bhogal <br>
-Chantal Tax <br>
-<br>
-Support staff <br>
-Sylvia Alberto <br>
-Dimitri Welting <br>
-Cezar Alborahal <br>
-<br>
-Postdocs <br>
-Geralda van Tilborg <br>
-Annette van der Toorn <br>
-Wybe van der Kemp <br>
-Mario Baez Yanez <br>
-Busra Kahraman <br>
-Merlijn van der Plas <br>
-Edwin Versteeg <br>
-Wouter Schellekens <br>
-Bart Steensma <br>
-Linda Heskamp <br>
-<br>
-PhD's <br>
-Vanja Curcic <br>
-Lotte van der Voort <br>
-Bart Franx <br>
-Vera Wielenga <br>
-Esther van Leeuwen <br>
-Emiel Roefs <br>
-Michael McGrory <br>
-Thomas Roos <br>
-Stanley Pham <br>
-Seb Harreveld <br>
-Jiying Dai <br>
-Flavio Meliado <br>
-Matthijs Kikken <br>
-Mark Gosselink <br>
-Zahra Shams <br>
-Sarah Jacobs <br>
-Narjes Ahmadian <br>
-Pien Jellema <br>
-Ayhan Ghursan <br>
-Kyungmin Nam <br>
-Lieke van den Wildenberg <br>
-Leonard Seelen <br>
+### Professors
 
-<br>
-Internship <br>
-Lyanne Bude <br>
-Max Diegast <br>
-Rik Weersink <br>
-Luc Willems <br>
-... <br>
+- Dennis Klomp
+- Rick Dijkhuizen
 
+### Associate professors
 
-<br>
+- Jaco Zwanenburg
+- Jannie Wijnen
+- Natalia Petridou
+- Hans Hoogduin
+- Jeanine Prompers
+- Jeroen Siero
+
+### Assistant professors
+
+- Martijn Froeling
+- Alexander Raaijmakers
+- Evita Wiegers
+- Alex Bhogal
+- Chantal Tax
+
+### Support staff
+
+- Sylvia Alberto
+- Dimitri Welting
+- Cezar Alborahal
+
+### Postdocs
+
+- Geralda van Tilborg
+- Annette van der Toorn
+- Wybe van der Kemp
+- Mario Baez Yanez
+- Busra Kahraman
+- Merlijn van der Plas
+- Edwin Versteeg
+- Wouter Schellekens
+- Bart Steensma
+- Linda Heskamp
+
+### PhD students
+
+- Vanja Curcic
+- Lotte van der Voort
+- Bart Franx
+- Vera Wielenga
+- Esther van Leeuwen
+- Emiel Roefs
+- Michael McGrory
+- Thomas Roos
+- Stanley Pham
+- Seb Harreveld
+- Jiying Dai
+- Flavio Meliado
+- Matthijs Kikken
+- Mark Gosselink
+- Zahra Shams
+- Sarah Jacobs
+- Narjes Ahmadian
+- Pien Jellema
+- Ayhan Ghursan
+- Kyungmin Nam
+- Lieke van den Wildenberg
+- Leonard Seelen
+
+### Interns
+
+- Lyanne Bude
+- Max Diegast
+- Rik Weersink
+- Luc Willems
+
 ### About us
+
 {% include list-pages tag="about" %}
