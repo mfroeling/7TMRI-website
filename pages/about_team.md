@@ -15,13 +15,13 @@ tags: about
 
 ### Professors
 
-- Dennis Klomp
-- Rick Dijkhuizen
+- [Dennis Klomp](https://www.umcutrecht.nl/en/research/researchers/klomp-dwj){:target="_blank"}
+- [Rick Dijkhuizen](https://www.umcutrecht.nl/en/research/researchers/dijkhuizen-rick-m-rm){:target="_blank"}
 
 ### Associate professors
 
 - Jaco Zwanenburg
-- [Jannie Wijnen](https://www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp)
+- [Jannie Wijnen](https://www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp){:target="_blank"}
 - Natalia Petridou
 - Hans Hoogduin
 - Jeanine Prompers
@@ -29,10 +29,10 @@ tags: about
 
 ### Assistant professors
 
-- [Martijn Froeling](https://www.umcutrecht.nl/en/research/researchers/froeling-martijn-m)
+- [Martijn Froeling](https://www.umcutrecht.nl/en/research/researchers/froeling-martijn-m){:target="_blank"}
 - Alexander Raaijmakers
 - Evita Wiegers
-- [Alex Bhogal](https://www.seevr.nl/)
+- [Alex Bhogal](https://www.seevr.nl/){:target="_blank"}
 - Chantal Tax
 
 ### Support staff

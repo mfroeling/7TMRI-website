@@ -21,16 +21,14 @@ tags:
 
 ---
 
-More information about QMRITools can be found on the [QMRITools website](https://www.qmritools.com/).
+More information about QMRITools can be found on the [QMRITools website](https://www.qmritools.com/){:target="_blank"}.
 
 ### About
 
 `QMRITools` is a collection of tools and functions for processing
 quantitative MRI data. The toolbox is developed for the [Wolfram
-language](https://www.wolfram.com/language/) and maintained using
-[Wolfram workbench](https://www.wolfram.com/workbench/) for
-[eclipse](https://www.eclipse.org/) and runs in the latest version of
-[Wolfram Mathematica](http://www.wolfram.com/mathematica/). The toolbox does not provide a GUI and its
+language](https://www.wolfram.com/language/){:target="_blank"} and runs in the latest version of
+[Wolfram Mathematica](http://www.wolfram.com/mathematica/){:target="_blank"}. The toolbox does not provide a GUI and its
 primary goal is to allow for fast batch data processing, and
 facilitate development and prototyping of new functions. The core of the
 toolbox contains various functions for data manipulation and restructuring.
