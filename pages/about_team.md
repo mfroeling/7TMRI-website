@@ -86,6 +86,8 @@ tags: about
 - Max Diegast
 - Rik Weersink
 - Luc Willems
+- Maaike Konig
+- ...
 
 ### About us
 
