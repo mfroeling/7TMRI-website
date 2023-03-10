@@ -21,7 +21,7 @@ tags: about
 ### Associate professors
 
 - Jaco Zwanenburg
-- [Jannie Wijnen] (www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp)
+- [Jannie Wijnen](https://www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp)
 - Natalia Petridou
 - Hans Hoogduin
 - Jeanine Prompers
@@ -29,10 +29,10 @@ tags: about
 
 ### Assistant professors
 
-- Martijn Froeling
+- [Martijn Froeling](https://www.umcutrecht.nl/en/research/researchers/froeling-martijn-m)
 - Alexander Raaijmakers
 - Evita Wiegers
-- [Alex Bhogal](www.seevr.nl)
+- [Alex Bhogal](https://www.seevr.nl/)
 - Chantal Tax
 
 ### Support staff
