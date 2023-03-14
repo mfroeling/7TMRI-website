@@ -7,7 +7,7 @@ header:
 
 title: "Vascular Brain Imaging Group"
 subheadline: 'subtitle'
-teaser: 'teaser'
+teaser: 
 
 images:
   - image_id: 'over'
@@ -28,17 +28,16 @@ Developments encompass hardware, MRI and fMRI data acquisition methods, analysis
 Applications encompass neurological and cerebrovascular diseases, neurovascular coupling, and neuroscience.
 
 Principal investigators:
+- ***Jeroen Siero (PI, Scientific Manager)***  
+High resolution vascular imaging and analysis methods for unraveling brain physiology in terms of hemodynamics and oxygenation in disease (small vessel disease, stroke and moyamoya disease) and healthy.
 
-- ***Jeroen Siero (Scientific Manager, PI)***  
-High resolution 4D vascular imaging and analysis methods for unraveling brain physiology of hemodynamics in diseases.
-
-- ***Jaco Zwanenburg (PI)***  
+- ***Jaco Zwanenburg (PI, Scientific Director)***  
 High field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
 
 - ***Natalia Petridou (PI)***  
 High field high resolution functional and structural MRI, neurovascular coupling, neuroscience.
 
-- ***Alex Bhogal (PI) ***
+
 
 <br>
 ### Ongoing research projects
