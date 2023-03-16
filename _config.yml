@@ -8,7 +8,7 @@
 #                                                 /____/
 #
 # Title of your website
-title: '7T-MRI'
+title: 'High field MRI'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'your slogan goes here'
@@ -26,7 +26,7 @@ author: MFroeling
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: "https://www.7TMRI.nl"
+url: "https://www.highfieldmri.nl"
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content

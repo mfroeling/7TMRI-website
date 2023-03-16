@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     23160,        380]
-NotebookOptionsPosition[     22355,        358]
-NotebookOutlinePosition[     22759,        374]
-CellTagsIndexPosition[     22716,        371]
+NotebookDataLength[     26410,        434]
+NotebookOptionsPosition[     25734,        415]
+NotebookOutlinePosition[     26136,        431]
+CellTagsIndexPosition[     26093,        428]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,13 +28,15 @@ Cell[BoxData[{
     "Import", "[", 
      "\"\<D:\\\\werk\\\\workspace\\\\7TMRI-website\\\\assets\\\\images\\\\\
 thesis\\\\thesis.xlsx\>\"", "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\n", 
+    RowBox[{"[", 
+     RowBox[{"1", ",", 
+      RowBox[{"2", ";;"}]}], "]"}], "]"}]}], ";"}], "\n", 
  RowBox[{"labs", "=", 
   RowBox[{"{", 
    RowBox[{
    "\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", ",", 
     "\"\<    name\>\"", ",", "\"\<    year\>\"", ",", "\"\<    isbn\>\"", 
-    ",", "\"\<    title\>\""}], "}"}]}], "\n", 
+    ",", "\"\<    title\>\"", ",", "\"\<    link\>\""}], "}"}]}], "\n", 
  RowBox[{"{", 
   RowBox[{
   "\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", ",", 
@@ -68,296 +70,351 @@ thesis\\\\thesis.xlsx\>\"", "]"}], "[",
           RowBox[{"[", "4", "]"}], "]"}], ",", 
          RowBox[{"ll", "[", 
           RowBox[{"[", 
-           RowBox[{"-", "1"}], "]"}], "]"}]}], "}"}]}], ";", 
+           RowBox[{"-", "1"}], "]"}], "]"}], ",", 
+         RowBox[{"ll", "[", 
+          RowBox[{"[", "5", "]"}], "]"}]}], "}"}]}], ";", 
       "\[IndentingNewLine]", 
       RowBox[{"StringJoin", "[", 
        RowBox[{
         RowBox[{
-         RowBox[{
-          RowBox[{"#", "[", 
-           RowBox[{"[", "1", "]"}], "]"}], "<>", "\"\<: \\\"\>\"", "<>", 
-          RowBox[{"#", "[", 
-           RowBox[{"[", "2", "]"}], "]"}], "<>", "\"\<\\\"\\n\>\""}], "&"}], "/@", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"\"\<  - image_url\>\"", "===", 
+            RowBox[{"#", "[", 
+             RowBox[{"[", "1", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"#", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], "<>", "\"\<: \>\"", "<>", 
+            RowBox[{"#", "[", 
+             RowBox[{"[", "2", "]"}], "]"}], "<>", "\"\<\\n\>\""}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"#", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], "<>", "\"\<: \\\"\>\"", "<>", 
+            RowBox[{"#", "[", 
+             RowBox[{"[", "2", "]"}], "]"}], "<>", "\"\<\\\"\\n\>\""}]}], 
+          "\[IndentingNewLine]", "]"}], "&"}], "/@", 
         RowBox[{"Thread", "[", 
          RowBox[{"{", 
           RowBox[{"labs", ",", "val"}], "}"}], "]"}]}], "]"}]}], 
-     "\[IndentingNewLine]", ")"}], "&"}], "/@", "list"}], "]"}]}], "Input",Exp\
-ressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
-
-Cell[BoxData["\<\"  - image_url: \\\"thesis\\\\img\\\"\\n    caption: \
-\\\"ISBN: ISBN - Title: title\\\"\\n    name: \\\"Naam\\\"\\n    year: \
-\\\"Round[Year]\\\"\\n    isbn: \\\"ISBN\\\"\\n    title: \\\"title\\\"\\n  - \
-image_url: \\\"thesis\\\\korteweg.png\\\"\\n    caption: \\\"ISBN: \
-9789039356814 - Title: High field MRI of axillary lymph nodes and breast \
-cancer\\\"\\n    name: \\\"Mies Korteweg\\\"\\n    year: \\\"2011\\\"\\n    \
-isbn: \\\"9789039356814\\\"\\n    title: \\\"High field MRI of axillary lymph \
-nodes and breast cancer\\\"\\n  - image_url: \\\"thesis\\\\bresser.png\\\"\\n \
-   caption: \\\"ISBN: 9789039355947 - Title: MRI-based quantification of \
-brain damage in cerebrovascular disorders\\\"\\n    name: \\\"Jeroen de \
-Bresser\\\"\\n    year: \\\"2011\\\"\\n    isbn: \\\"9789039355947\\\"\\n    \
-title: \\\"MRI-based quantification of brain damage in cerebrovascular \
-disorders\\\"\\n  - image_url: \\\"thesis\\\\conijn.png\\\"\\n    caption: \\\
-\"ISBN: 9789461081544 - Title: Imaging cerebral small vessel disease at 7 \
-Tesla MRI\\\"\\n    name: \\\"Mandy Conijn\\\"\\n    year: \\\"2011\\\"\\n    \
-isbn: \\\"9789461081544\\\"\\n    title: \\\"Imaging cerebral small vessel \
-disease at 7 Tesla MRI\\\"\\n  - image_url: \\\"thesis\\\\polders.png\\\"\\n  \
-  caption: \\\"ISBN: 9789088915185 - Title: Quantitative MRI of the human \
-brain at 7 tesla\\\"\\n    name: \\\"Daniels Polders\\\"\\n    year: \\\"2012\
-\\\"\\n    isbn: \\\"9789088915185\\\"\\n    title: \\\"Quantitative MRI of \
-the human brain at 7 tesla\\\"\\n  - image_url: \\\"thesis\\\\boer.png\\\"\\n \
-   caption: \\\"ISBN: 9789039357064 - Title: Magnetic Resonance Spectroscopy \
-at ultra-high field in humans\\\"\\n    name: \\\"Vincent Boer\\\"\\n    \
-year: \\\"2012\\\"\\n    isbn: \\\"9789039357064\\\"\\n    title: \
-\\\"Magnetic Resonance Spectroscopy at ultra-high field in humans\\\"\\n  - \
-image_url: \\\"thesis\\\\verstraete.png\\\"\\n    caption: \\\"ISBN: \
-9789090271835 - Title: Traces of disease in amyotrophic lateral sclerosis\\\"\
-\\n    name: \\\"Esther Verstraete\\\"\\n    year: \\\"2012\\\"\\n    isbn: \
-\\\"9789090271835\\\"\\n    title: \\\"Traces of disease in amyotrophic \
-lateral sclerosis\\\"\\n  - image_url: \\\"thesis\\\\andreychenko.png\\\"\\n  \
-  caption: \\\"ISBN: 9789461084866 - Title: Radiofrequency solutions in \
-clinical high field magnetic resonance\\\"\\n    name: \\\"Anna \
-Andreychenko\\\"\\n    year: \\\"2013\\\"\\n    isbn: \
-\\\"9789461084866\\\"\\n    title: \\\"Radiofrequency solutions in clinical \
-high field magnetic resonance\\\"\\n  - image_url: \\\"thesis\\\\castro.png\\\
-\"\\n    caption: \\\"ISBN: 9789039360323 - Title: Development of High Field \
-MR Imaging and Spectroscopy Techniques of the Prostate\\\"\\n    name: \
-\\\"Catalina Arteaga de Castro\\\"\\n    year: \\\"2013\\\"\\n    isbn: \
-\\\"9789039360323\\\"\\n    title: \\\"Development of High Field MR Imaging \
-and Spectroscopy Techniques of the Prostate\\\"\\n  - image_url: \\\"thesis\\\
-\\marsman.png\\\"\\n    caption: \\\"ISBN: 9789461085214 - Title: Glutamate \
-and GABA in schizophrenia\\\"\\n    name: \\\"Anouk Marsman\\\"\\n    year: \
-\\\"2013\\\"\\n    isbn: \\\"9789461085214\\\"\\n    title: \\\"Glutamate and \
-GABA in schizophrenia\\\"\\n  - image_url: \\\"thesis\\\\siero.png\\\"\\n    \
-caption: \\\"ISBN: 9789039359303 - Title: Blood Flow and Brain Function: \
-Investigations of neurovascular coupling using BOLD fMRI at 7 tesla\\\"\\n    \
-name: \\\"Jeroen Siero\\\"\\n    year: \\\"2013\\\"\\n    isbn: \
-\\\"9789039359303\\\"\\n    title: \\\"Blood Flow and Brain Function: \
-Investigations of neurovascular coupling using BOLD fMRI at 7 tesla\\\"\\n  - \
-image_url: \\\"thesis\\\\sbrizzi.png\\\"\\n    caption: \\\"ISBN: \
-9789088917585 - Title: Concerto per MRI: A Mathematical Orchestration of RF \
-Fields for pTx Systems\\\"\\n    name: \\\"Alessandro Sbrizzi\\\"\\n    year: \
-\\\"2013\\\"\\n    isbn: \\\"9789088917585\\\"\\n    title: \\\"Concerto per \
-MRI: A Mathematical Orchestration of RF Fields for pTx Systems\\\"\\n  - \
-image_url: \\\"thesis\\\\kolk.png\\\"\\n    caption: \\\"ISBN: 9789462591431 \
-- Title: Intracranial vessel wall imaging at 7.0 tesla MRI\\\"\\n    name: \\\
-\"Anja van der Kolk\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
-\\\"9789462591431\\\"\\n    title: \\\"Intracranial vessel wall imaging at \
-7.0 tesla MRI\\\"\\n  - image_url: \\\"thesis\\\\kemp.png\\\"\\n    caption: \
-\\\"ISBN: 9789039361757 - Title: Phosphorus Magnetic Resonance Spectroscopy \
-in Breast Cancer\\\"\\n    name: \\\"Wiebe van der Kemp\\\"\\n    year: \
-\\\"2014\\\"\\n    isbn: \\\"9789039361757\\\"\\n    title: \\\"Phosphorus \
-Magnetic Resonance Spectroscopy in Breast Cancer\\\"\\n  - image_url: \
-\\\"thesis\\\\koning.png\\\"\\n    caption: \\\"ISBN: 9789088919770 - Title: \
-High Field MRI: Developments for carotid artery and brain perfusion imaging\\\
-\"\\n    name: \\\"Wouter Koning\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
-\\\"9789088919770\\\"\\n    title: \\\"High Field MRI: Developments for \
-carotid artery and brain perfusion imaging\\\"\\n  - image_url: \
-\\\"thesis\\\\Stehouwer.png\\\"\\n    caption: \\\"ISBN: 9789053358726 - \
-Title: Ultra-high field magnetic resonance imaging of breast cancer\\\"\\n    \
-name: \\\"Bertine Stehouwer\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
-\\\"9789053358726\\\"\\n    title: \\\"Ultra-high field magnetic resonance \
-imaging of breast cancer\\\"\\n  - image_url: \\\"thesis\\\\wisse.png\\\"\\n  \
-  caption: \\\"ISBN: 9789462591820 - Title: Zooming in on the hippocampus in \
-aging and age-related diseases\\\"\\n    name: \\\"Laura Wisse\\\"\\n    \
-year: \\\"2014\\\"\\n    isbn: \\\"9789462591820\\\"\\n    title: \\\"Zooming \
-in on the hippocampus in aging and age-related diseases\\\"\\n  - image_url: \
-\\\"thesis\\\\ipek.png\\\"\\n    caption: \\\"ISBN: 9789039361634 - Title: \
-Electromagnetic exploration of a radiative antenna for 7T pelvic MR imaging\\\
-\"\\n    name: \\\"Ozlem Ipek\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
-\\\"9789039361634\\\"\\n    title: \\\"Electromagnetic exploration of a \
-radiative antenna for 7T pelvic MR imaging\\\"\\n  - image_url: \
-\\\"thesis\\\\vis.png\\\"\\n    caption: \\\"ISBN: 9789462594944 - Title: MRI \
-quantitative hemodynamic evaluation of the brain\\\"\\n    name: \\\"Jil de \
-vis\\\"\\n    year: \\\"2015\\\"\\n    isbn: \\\"9789462594944\\\"\\n    \
-title: \\\"MRI quantitative hemodynamic evaluation of the brain\\\"\\n  - \
-image_url: \\\"thesis\\\\rotte.png\\\"\\n    caption: \\\"ISBN: 9789039363089 \
-- Title: High resolution MRI in patients with stroke or Cushing\
-\[CloseCurlyQuote]s disease\\\"\\n    name: \\\"Alexandra Rotte\\\"\\n    \
-year: \\\"2015\\\"\\n    isbn: \\\"9789039363089\\\"\\n    title: \\\"High \
-resolution MRI in patients with stroke or Cushing\[CloseCurlyQuote]s \
-disease\\\"\\n  - image_url: \\\"thesis\\\\dieleman.png\\\"\\n    caption: \\\
-\"ISBN: 9789039366387 - Title: MR imaging of intracranial vessel wall \
-pathologies and parenchymal brain damage\\\"\\n    name: \\\"Nikki Dieleman\\\
-\"\\n    year: \\\"2016\\\"\\n    isbn: \\\"9789039366387\\\"\\n    title: \\\
-\"MR imaging of intracranial vessel wall pathologies and parenchymal brain \
-damage\\\"\\n  - image_url: \\\"thesis\\\\kalleveen.png\\\"\\n    caption: \\\
-\"ISBN: 9789462993983 - Title: A game of RF and gradient pulses: Obtaining an \
-efficient homogeneous flip angle with strong inhomogeneous B1 fields\\\"\\n   \
- name: \\\"Irene van Kalleveen\\\"\\n    year: \\\"2016\\\"\\n    isbn: \
-\\\"9789462993983\\\"\\n    title: \\\"A game of RF and gradient pulses: \
-Obtaining an efficient homogeneous flip angle with strong inhomogeneous B1 \
-fields\\\"\\n  - image_url: \\\"thesis\\\\schmitz.png\\\"\\n    caption: \
-\\\"ISBN: 9789082196818 - Title: Magnetic Resonance Imaging for Therapy \
-Selection in Breast Cancer\\\"\\n    name: \\\"Alexander Schmitz\\\"\\n    \
-year: \\\"2016\\\"\\n    isbn: \\\"9789082196818\\\"\\n    title: \
-\\\"Magnetic Resonance Imaging for Therapy Selection in Breast Cancer\\\"\\n  \
-- image_url: \\\"thesis\\\\oorschot.png\\\"\\n    caption: \\\"ISBN: \
-9789039365106 - Title: Endogenous assessment of myocardial fibrosis with \
-quantitative MRI\\\"\\n    name: \\\"Joep van Oorschot\\\"\\n    year: \
-\\\"2016\\\"\\n    isbn: \\\"9789039365106\\\"\\n    title: \\\"Endogenous \
-assessment of myocardial fibrosis with quantitative MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\harteveld.png\\\"\\n    caption: \\\"ISBN: 9789039367759 - \
-Title: In vivo and ex vivo vessel wall MRI of the circle of Willis\\\"\\n    \
-name: \\\"Anita Harteveld\\\"\\n    year: \\\"2017\\\"\\n    isbn: \
-\\\"9789039367759\\\"\\n    title: \\\"In vivo and ex vivo vessel wall MRI of \
-the circle of Willis\\\"\\n  - image_url: \\\"thesis\\\\Luttje.png\\\"\\n    \
-caption: \\\"ISBN: 9789039367742 - Title: Prostate Cancer Characterization at \
-Ultra-high Field MRI\\\"\\n    name: \\\"Mariska Luttje\\\"\\n    year: \
-\\\"2017\\\"\\n    isbn: \\\"9789039367742\\\"\\n    title: \\\"Prostate \
-Cancer Characterization at Ultra-high Field MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\velden.png\\\"\\n    caption: \\\"ISBN: 9789039367827 - Title: \
-Novel techniques for 7 tesla breast MRI\\\"\\n    name: \\\"Tijl van der \
-Velden\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789039367827\\\"\\n    \
-title: \\\"Novel techniques for 7 tesla breast MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\restivo.png\\\"\\n    caption: \\\"ISBN: 9789402805079 - Title: \
-Assessment and Monitoring of RF Safety for Ultra-High Field MRI\\\"\\n    \
-name: \\\"Matthew Restivo\\\"\\n    year: \\\"2017\\\"\\n    isbn: \
-\\\"9789402805079\\\"\\n    title: \\\"Assessment and Monitoring of RF Safety \
-for Ultra-High Field MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\menezes.png\\\"\\n    caption: \\\"ISBN: 9789039368480 - Title: \
-Novel Imaging Strategies for Breast Cancer Patients\\\"\\n    name: \
-\\\"Gisela Menezes\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789039368480\
-\\\"\\n    title: \\\"Novel Imaging Strategies for Breast Cancer Patients\\\"\
-\\n  - image_url: \\\"thesis\\\\haakma.png\\\"\\n    caption: \\\"ISBN: \
-9789402811308 - Title: Advances in peripheral nerve MR imaging : The \
-application of diffusion MRI in neurological disorders\\\"\\n    name: \
-\\\"Wieke Haakma\\\"\\n    year: \\\"2018\\\"\\n    isbn: \\\"9789402811308\\\
-\"\\n    title: \\\"Advances in peripheral nerve MR imaging : The application \
-of diffusion MRI in neurological disorders\\\"\\n  - image_url: \
-\\\"thesis\\\\hendriks.png\\\"\\n    caption: \\\"ISBN: 9789039370551 - \
-Title: Breaking technical barriers of MRI and MRS to explore human brain \
-functions\\\"\\n    name: \\\"Arjan Hendriks\\\"\\n    year: \\\"2018\\\"\\n  \
-  isbn: \\\"9789039370551\\\"\\n    title: \\\"Breaking technical barriers of \
-MRI and MRS to explore human brain functions\\\"\\n  - image_url: \
-\\\"thesis\\\\mandija.png\\\"\\n    caption: \\\"ISBN: 9789039369043 - Title: \
-Non-Invasive Characterization of Brain Tissue Electrical Properties with MRI \
-\\\"\\n    name: \\\"Stefano Mandija\\\"\\n    year: \\\"2018\\\"\\n    isbn: \
-\\\"9789039369043\\\"\\n    title: \\\"Non-Invasive Characterization of Brain \
-Tissue Electrical Properties with MRI \\\"\\n  - image_url: \
-\\\"thesis\\\\mooiweer.png\\\"\\n    caption: \\\"ISBN: 9789462999336 - \
-Title: Personalized 2D-selective RF excitation in high field MRI\\\"\\n    \
-name: \\\"Ronald Mooiweer\\\"\\n    year: \\\"2018\\\"\\n    isbn: \
-\\\"9789462999336\\\"\\n    title: \\\"Personalized 2D-selective RF \
-excitation in high field MRI\\\"\\n  - image_url: \\\"thesis\\\\kleij.png\\\"\
-\\n    caption: \\\"ISBN: 9789039371947 - Title: Quantitative MRI markers for \
-the brain at risk\\\"\\n    name: \\\"lisa van der kleij\\\"\\n    year: \
-\\\"2019\\\"\\n    isbn: \\\"9789039371947\\\"\\n    title: \\\"Quantitative \
-MRI markers for the brain at risk\\\"\\n  - image_url: \
-\\\"thesis\\\\rijssel.png\\\"\\n    caption: \\\"ISBN: 9789039371961 - Title: \
-Artifact Correction and Signal Quantification in High Field Breast MRI\\\"\\n \
-   name: \\\"Mike van Rijssel\\\"\\n    year: \\\"2019\\\"\\n    isbn: \
-\\\"9789039371961\\\"\\n    title: \\\"Artifact Correction and Signal \
-Quantification in High Field Breast MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\krikken.png\\\"\\n    caption: \\\"ISBN: 9789039371220 - Title: \
-Early effects of neoadjuvant chemotherapy in breast cancer using metabolic \
-MRI\\\"\\n    name: \\\"Erwin Krikken\\\"\\n    year: \\\"2019\\\"\\n    \
-isbn: \\\"9789039371220\\\"\\n    title: \\\"Early effects of neoadjuvant \
-chemotherapy in breast cancer using metabolic MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\deboer.png\\\"\\n    caption: \\\"ISBN: 9789464230208 - Title: \
-Renal MRI: from Niche Application to New Tool in Nephrology\\\"\\n    name: \
-\\\"Anneloes de Boer\\\"\\n    year: \\\"2020\\\"\\n    isbn: \
-\\\"9789464230208\\\"\\n    title: \\\"Renal MRI: from Niche Application to \
-New Tool in Nephrology\\\"\\n  - image_url: \\\"thesis\\\\brinkhof.png\\\"\\n \
-   caption: \\\"ISBN: 9789039372890 - Title: Cartilage Properties Quantified \
-With 7T MRI\\\"\\n    name: \\\"Sander Brinkhof\\\"\\n    year: \
-\\\"2020\\\"\\n    isbn: \\\"9789039372890\\\"\\n    title: \\\"Cartilage \
-Properties Quantified With 7T MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\houtum.png\\\"\\n    caption: \\\"ISBN: 9789463759502 - Title: \
-Tools for quantitative MR imaging and spectroscopy for the improvement of \
-therapy evaluation in oncology\\\"\\n    name: \\\"Quincy van Houtum \\\"\\n  \
-  year: \\\"2020\\\"\\n    isbn: \\\"9789463759502\\\"\\n    title: \\\"Tools \
-for quantitative MR imaging and spectroscopy for the improvement of therapy \
-evaluation in oncology\\\"\\n  - image_url: \\\"thesis\\\\tokaya.png\\\"\\n   \
- caption: \\\"ISBN: 9789039372418 - Title: MRI safety of implants: transfer \
-function determination from MR images\\\"\\n    name: \\\"Janot Tokaya\\\"\\n \
-   year: \\\"2020\\\"\\n    isbn: \\\"9789039372418\\\"\\n    title: \\\"MRI \
-safety of implants: transfer function determination from MR images\\\"\\n  - \
-image_url: \\\"thesis\\\\sloots.png\\\"\\n    caption: \\\"ISBN: \
-9789039374122 - Title: Quantitative MRI of physiological brain tissue \
-deformation in humans\\\"\\n    name: \\\"Jacob Jan Sloots\\\"\\n    year: \\\
-\"2021\\\"\\n    isbn: \\\"9789039374122\\\"\\n    title: \\\"Quantitative \
-MRI of physiological brain tissue deformation in humans\\\"\\n  - image_url: \
-\\\"thesis\\\\Lindenholz.png\\\"\\n    caption: \\\"ISBN: 9789464165081 - \
-Title: Intracranial Vessel Wall MR Imaging: From Bench to Bedside\\\"\\n    \
-name: \\\"Arjen Lindenholz\\\"\\n    year: \\\"2021\\\"\\n    isbn: \
-\\\"9789464165081\\\"\\n    title: \\\"Intracranial Vessel Wall MR Imaging: \
-From Bench to Bedside\\\"\\n  - image_url: \\\"thesis\\\\brundel.png\\\"\\n   \
- caption: \\\"ISBN: 9789039361870 - Title: Diabetes and microvascular disease \
-in Vascular Cognitive Impairment\\\"\\n    name: \\\"Manon Brundel \\\"\\n    \
-year: \\\"2014\\\"\\n    isbn: \\\"9789039361870\\\"\\n    title: \
-\\\"Diabetes and microvascular disease in Vascular Cognitive \
-Impairment\\\"\\n  - image_url: \\\"thesis\\\\bhogal.png\\\"\\n    caption: \
-\\\"ISBN: 9789039366226 - Title: MRI Mapping of cerebral physiology using \
-respiratory challenges\\\"\\n    name: \\\"Alex Bhogal\\\"\\n    year: \
-\\\"2016\\\"\\n    isbn: \\\"9789039366226\\\"\\n    title: \\\"MRI Mapping \
-of cerebral physiology using respiratory challenges\\\"\\n  - image_url: \
-\\\"thesis\\\\veluw.png\\\"\\n    caption: \\\"ISBN: 9789039363775 - Title: \
-Microvascular brain pathology on high resolution MRI\\\"\\n    name: \
-\\\"Susanne van Veluw\\\"\\n    year: \\\"2015\\\"\\n    isbn: \
-\\\"9789039363775\\\"\\n    title: \\\"Microvascular brain pathology on high \
-resolution MRI\\\"\\n  - image_url: \\\"thesis\\\\khlebnikov.png\\\"\\n    \
-caption: \\\"ISBN: 9789039366998 - Title: Chemical exchange saturation \
-transfer: from methodological developments to the new applications\\\"\\n    \
-name: \\\"Vitaliy Khlebnikov\\\"\\n    year: \\\"2016\\\"\\n    isbn: \
-\\\"9789039366998\\\"\\n    title: \\\"Chemical exchange saturation transfer: \
-from methodological developments to the new applications\\\"\\n  - image_url: \
-\\\"thesis\\\\bergen.png\\\"\\n    caption: \\\"ISBN: 9789039352557 - Title: \
-RF control for 7T body MRI: in search of the prostate\\\"\\n    name: \\\"Bob \
-van den bergen\\\"\\n    year: \\\"2010\\\"\\n    isbn: \\\"9789039352557\\\"\
-\\n    title: \\\"RF control for 7T body MRI: in search of the \
-prostate\\\"\\n  - image_url: \\\"thesis\\\\lier.png\\\"\\n    caption: \
-\\\"ISBN: 9789039357859 - Title: Electromagnetic and Thermal Aspects of \
-Radiofrequency Field Propagation in Ultra-High Field MRI\\\"\\n    name: \
-\\\"Astrid van Lier\\\"\\n    year: \\\"2012\\\"\\n    isbn: \
-\\\"9789039357859\\\"\\n    title: \\\"Electromagnetic and Thermal Aspects of \
-Radiofrequency Field Propagation in Ultra-High Field MRI\\\"\\n  - image_url: \
-\\\"thesis\\\\Hespen.png\\\"\\n    caption: \\\"ISBN: 9789039373682 - Title: \
-The brain at risk: Detection and quantification of cerebrovascular \
-disease\\\"\\n    name: \\\"Kees van Hespen\\\"\\n    year: \\\"2021\\\"\\n   \
- isbn: \\\"9789039373682\\\"\\n    title: \\\"The brain at risk: Detection \
-and quantification of cerebrovascular disease\\\"\\n  - image_url: \\\"thesis\
-\\\\arts.png\\\"\\n    caption: \\\"ISBN: 9789464168037 - Title: New \
-perspectives on the cerebral small vessels with 7T MRI\\\"\\n    name: \
-\\\"Tine Arts\\\"\\n    year: \\\"2021\\\"\\n    isbn: \
-\\\"9789464168037\\\"\\n    title: \\\"New perspectives on the cerebral small \
-vessels with 7T MRI\\\"\\n  - image_url: \\\"thesis\\\\geurts.png\\\"\\n    \
-caption: \\\"ISBN: 9789463801577 - Title: High field mri of cerebral small \
-vessel function\\\"\\n    name: \\\"Lennart Geurts\\\"\\n    year: \\\"2017\\\
-\"\\n    isbn: \\\"9789463801577\\\"\\n    title: \\\"High field mri of \
-cerebral small vessel function\\\"\\n  - image_url: \
-\\\"thesis\\\\steensma.png\\\"\\n    caption: \\\"ISBN: 9789402818659 - \
-Title: Design, safety and applications of radio-frequency antennas for \
-ultra-high field MRI of the body\\\"\\n    name: \\\"Bart Steensma\\\"\\n    \
-year: \\\"2019\\\"\\n    isbn: \\\"9789402818659\\\"\\n    title: \\\"Design, \
-safety and applications of radio-frequency antennas for ultra-high field MRI \
-of the body\\\"\\n\"\>"], "Output",
- CellLabel->"Out[41]=",ExpressionUUID->"c2d00278-2ee0-4803-a84b-566a0717e43b"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"list", "[", 
-  RowBox[{"[", "2", "]"}], "]"}]], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"711a2ed5-8b95-475d-871c-cb6a5e68b02e"],
+     "\[IndentingNewLine]", ")"}], "&"}], "/@", "list"}], "]"}]}], "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"Mies Korteweg\"\>", ",", "2011.`", ",", "\<\"korteweg.png\"\>",
-    ",", "\<\"9789039356814\"\>", 
-   ",", "\<\"https://dspace.library.uu.nl/handle/1874/214142\"\>", 
-   ",", "\<\"High field MRI of axillary lymph nodes and breast cancer\"\>"}], 
-  "}"}]], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"95d19563-4bf5-4e1f-b13a-0a9f920daddf"]
-}, Open  ]],
+  RowBox[{"\<\"  - image_url\"\>", ",", "\<\"    caption\"\>", 
+   ",", "\<\"    name\"\>", ",", "\<\"    year\"\>", ",", "\<\"    isbn\"\>", 
+   ",", "\<\"    title\"\>", ",", "\<\"    link\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[2]=",ExpressionUUID->"f8634e28-5f10-4df0-8f08-3324c98764b1"],
 
 Cell[BoxData[
- RowBox[{"{", "\"\<gallery:\\n\>\"", "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", "}"}]], "Input",ExpressionUUID->"42a5385e-f259-4dac-\
-8d66-4e1f91904972"]
+ RowBox[{"{", 
+  RowBox[{"\<\"  - image_url\"\>", ",", "\<\"    caption\"\>", 
+   ",", "\<\"    name\"\>", ",", "\<\"    year\"\>", ",", "\<\"    isbn\"\>", 
+   ",", "\<\"    title\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[3]=",ExpressionUUID->"0c0432f8-a085-40ce-9be3-ea717133323f"],
+
+Cell[BoxData["\<\"  - image_url: thesis\\\\bergen.png\\n    caption: \
+\\\"ISBN: 9789039352557 - Title: RF control for 7T body MRI: in search of the \
+prostate\\\"\\n    name: \\\"Bob van den bergen\\\"\\n    year: \
+\\\"2010\\\"\\n    isbn: \\\"9789039352557\\\"\\n    title: \\\"RF control \
+for 7T body MRI: in search of the prostate\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/37551\\\"\\n  - image_url: \
+thesis\\\\korteweg.png\\n    caption: \\\"ISBN: 9789039356814 - Title: High \
+field MRI of axillary lymph nodes and breast cancer\\\"\\n    name: \\\"Mies \
+Korteweg\\\"\\n    year: \\\"2011\\\"\\n    isbn: \\\"9789039356814\\\"\\n    \
+title: \\\"High field MRI of axillary lymph nodes and breast cancer\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/214142\\\"\\n  - \
+image_url: thesis\\\\bresser.png\\n    caption: \\\"ISBN: 9789039355947 - \
+Title: MRI-based quantification of brain damage in cerebrovascular \
+disorders\\\"\\n    name: \\\"Jeroen de Bresser\\\"\\n    year: \
+\\\"2011\\\"\\n    isbn: \\\"9789039355947\\\"\\n    title: \\\"MRI-based \
+quantification of brain damage in cerebrovascular disorders\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/208641\\\"\\n  - image_url: \
+thesis\\\\conijn.png\\n    caption: \\\"ISBN: 9789461081544 - Title: Imaging \
+cerebral small vessel disease at 7 Tesla MRI\\\"\\n    name: \\\"Mandy Conijn\
+\\\"\\n    year: \\\"2011\\\"\\n    isbn: \\\"9789461081544\\\"\\n    title: \
+\\\"Imaging cerebral small vessel disease at 7 Tesla MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/203730\\\"\\n  - image_url: \
+thesis\\\\polders.png\\n    caption: \\\"ISBN: 9789088915185 - Title: \
+Quantitative MRI of the human brain at 7 tesla\\\"\\n    name: \\\"Daniels \
+Polders\\\"\\n    year: \\\"2012\\\"\\n    isbn: \\\"9789088915185\\\"\\n    \
+title: \\\"Quantitative MRI of the human brain at 7 tesla\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/259037\\\"\\n  - image_url: \
+thesis\\\\boer.png\\n    caption: \\\"ISBN: 9789039357064 - Title: Magnetic \
+Resonance Spectroscopy at ultra-high field in humans\\\"\\n    name: \
+\\\"Vincent Boer\\\"\\n    year: \\\"2012\\\"\\n    isbn: \\\"9789039357064\\\
+\"\\n    title: \\\"Magnetic Resonance Spectroscopy at ultra-high field in \
+humans\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/221956\\\"\\n  - image_url: \
+thesis\\\\verstraete.png\\n    caption: \\\"ISBN: 9789090271835 - Title: \
+Traces of disease in amyotrophic lateral sclerosis\\\"\\n    name: \\\"Esther \
+Verstraete\\\"\\n    year: \\\"2012\\\"\\n    isbn: \\\"9789090271835\\\"\\n  \
+  title: \\\"Traces of disease in amyotrophic lateral sclerosis\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/258024\\\"\\n  - \
+image_url: thesis\\\\lier.png\\n    caption: \\\"ISBN: 9789039357859 - Title: \
+Electromagnetic and Thermal Aspects of Radiofrequency Field Propagation in \
+Ultra-High Field MRI\\\"\\n    name: \\\"Astrid van Lier\\\"\\n    year: \
+\\\"2012\\\"\\n    isbn: \\\"9789039357859\\\"\\n    title: \
+\\\"Electromagnetic and Thermal Aspects of Radiofrequency Field Propagation \
+in Ultra-High Field MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/242202\\\"\\n  - image_url: \
+thesis\\\\andreychenko.png\\n    caption: \\\"ISBN: 9789461084866 - Title: \
+Radiofrequency solutions in clinical high field magnetic resonance\\\"\\n    \
+name: \\\"Anna Andreychenko\\\"\\n    year: \\\"2013\\\"\\n    isbn: \
+\\\"9789461084866\\\"\\n    title: \\\"Radiofrequency solutions in clinical \
+high field magnetic resonance\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/280856\\\"\\n  - image_url: \
+thesis\\\\castro.png\\n    caption: \\\"ISBN: 9789039360323 - Title: \
+Development of High Field MR Imaging and Spectroscopy Techniques of the \
+Prostate\\\"\\n    name: \\\"Catalina Arteaga de Castro\\\"\\n    year: \
+\\\"2013\\\"\\n    isbn: \\\"9789039360323\\\"\\n    title: \\\"Development \
+of High Field MR Imaging and Spectroscopy Techniques of the Prostate\\\"\\n   \
+ link: \\\"https://dspace.library.uu.nl/handle/1874/283337\\\"\\n  - \
+image_url: thesis\\\\marsman.png\\n    caption: \\\"ISBN: 9789461085214 - \
+Title: Glutamate and GABA in schizophrenia\\\"\\n    name: \\\"Anouk \
+Marsman\\\"\\n    year: \\\"2013\\\"\\n    isbn: \\\"9789461085214\\\"\\n    \
+title: \\\"Glutamate and GABA in schizophrenia\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/285291\\\"\\n  - image_url: \
+thesis\\\\siero.png\\n    caption: \\\"ISBN: 9789039359303 - Title: Blood \
+Flow and Brain Function: Investigations of neurovascular coupling using BOLD \
+fMRI at 7 tesla\\\"\\n    name: \\\"Jeroen Siero\\\"\\n    year: \\\"2013\\\"\
+\\n    isbn: \\\"9789039359303\\\"\\n    title: \\\"Blood Flow and Brain \
+Function: Investigations of neurovascular coupling using BOLD fMRI at 7 tesla\
+\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/273223\\\"\\n  \
+- image_url: thesis\\\\sbrizzi.png\\n    caption: \\\"ISBN: 9789088917585 - \
+Title: Concerto per MRI: A Mathematical Orchestration of RF Fields for pTx \
+Systems\\\"\\n    name: \\\"Alessandro Sbrizzi\\\"\\n    year: \
+\\\"2013\\\"\\n    isbn: \\\"9789088917585\\\"\\n    title: \\\"Concerto per \
+MRI: A Mathematical Orchestration of RF Fields for pTx Systems\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/287960\\\"\\n  - \
+image_url: thesis\\\\kolk.png\\n    caption: \\\"ISBN: 9789462591431 - Title: \
+Intracranial vessel wall imaging at 7.0 tesla MRI\\\"\\n    name: \\\"Anja \
+van der Kolk\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789462591431\\\"\\n    title: \\\"Intracranial vessel wall imaging at \
+7.0 tesla MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/292555\\\"\\n  - image_url: \
+thesis\\\\kemp.png\\n    caption: \\\"ISBN: 9789039361757 - Title: Phosphorus \
+Magnetic Resonance Spectroscopy in Breast Cancer\\\"\\n    name: \\\"Wiebe \
+van der Kemp\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789039361757\\\"\\n    title: \\\"Phosphorus Magnetic Resonance \
+Spectroscopy in Breast Cancer\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/298552\\\"\\n  - image_url: \
+thesis\\\\koning.png\\n    caption: \\\"ISBN: 9789088919770 - Title: High \
+Field MRI: Developments for carotid artery and brain perfusion imaging\\\"\\n \
+   name: \\\"Wouter Koning\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789088919770\\\"\\n    title: \\\"High Field MRI: Developments for \
+carotid artery and brain perfusion imaging\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/299919\\\"\\n  - image_url: \
+thesis\\\\stehouwer.png\\n    caption: \\\"ISBN: 9789053358726 - Title: \
+Ultra-high field magnetic resonance imaging of breast cancer\\\"\\n    name: \
+\\\"Bertine Stehouwer\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789053358726\\\"\\n    title: \\\"Ultra-high field magnetic resonance \
+imaging of breast cancer\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/294449\\\"\\n  - image_url: \
+thesis\\\\wisse.png\\n    caption: \\\"ISBN: 9789462591820 - Title: Zooming \
+in on the hippocampus in aging and age-related diseases\\\"\\n    name: \
+\\\"Laura Wisse\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789462591820\\\"\\n    title: \\\"Zooming in on the hippocampus in aging \
+and age-related diseases\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/294749\\\"\\n  - image_url: \
+thesis\\\\ipek.png\\n    caption: \\\"ISBN: 9789039361634 - Title: \
+Electromagnetic exploration of a radiative antenna for 7T pelvic MR imaging\\\
+\"\\n    name: \\\"Ozlem Ipek\\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789039361634\\\"\\n    title: \\\"Electromagnetic exploration of a \
+radiative antenna for 7T pelvic MR imaging\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/294786\\\"\\n  - image_url: \
+thesis\\\\brundel.png\\n    caption: \\\"ISBN: 9789039361870 - Title: \
+Diabetes and microvascular disease in Vascular Cognitive Impairment\\\"\\n    \
+name: \\\"Manon Brundel \\\"\\n    year: \\\"2014\\\"\\n    isbn: \
+\\\"9789039361870\\\"\\n    title: \\\"Diabetes and microvascular disease in \
+Vascular Cognitive Impairment\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/298813\\\"\\n  - image_url: \
+thesis\\\\vis.png\\n    caption: \\\"ISBN: 9789462594944 - Title: MRI \
+quantitative hemodynamic evaluation of the brain\\\"\\n    name: \\\"Jil de \
+vis\\\"\\n    year: \\\"2015\\\"\\n    isbn: \\\"9789462594944\\\"\\n    \
+title: \\\"MRI quantitative hemodynamic evaluation of the brain\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/303532\\\"\\n  - \
+image_url: thesis\\\\rotte.png\\n    caption: \\\"ISBN: 9789039363089 - \
+Title: High resolution MRI in patients with stroke or Cushing\
+\[CloseCurlyQuote]s disease\\\"\\n    name: \\\"Alexandra Rotte\\\"\\n    \
+year: \\\"2015\\\"\\n    isbn: \\\"9789039363089\\\"\\n    title: \\\"High \
+resolution MRI in patients with stroke or Cushing\[CloseCurlyQuote]s \
+disease\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/310942\\\
+\"\\n  - image_url: thesis\\\\veluw.png\\n    caption: \\\"ISBN: \
+9789039363775 - Title: Microvascular brain pathology on high resolution MRI\\\
+\"\\n    name: \\\"Susanne van Veluw\\\"\\n    year: \\\"2015\\\"\\n    isbn: \
+\\\"9789039363775\\\"\\n    title: \\\"Microvascular brain pathology on high \
+resolution MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/319774\\\"\\n  - image_url: \
+thesis\\\\dieleman.png\\n    caption: \\\"ISBN: 9789039366387 - Title: MR \
+imaging of intracranial vessel wall pathologies and parenchymal brain \
+damage\\\"\\n    name: \\\"Nikki Dieleman\\\"\\n    year: \\\"2016\\\"\\n    \
+isbn: \\\"9789039366387\\\"\\n    title: \\\"MR imaging of intracranial \
+vessel wall pathologies and parenchymal brain damage\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/338768\\\"\\n  - image_url: \
+thesis\\\\kalleveen.png\\n    caption: \\\"ISBN: 9789462993983 - Title: A \
+game of RF and gradient pulses: Obtaining an efficient homogeneous flip angle \
+with strong inhomogeneous B1 fields\\\"\\n    name: \\\"Irene van Kalleveen\\\
+\"\\n    year: \\\"2016\\\"\\n    isbn: \\\"9789462993983\\\"\\n    title: \\\
+\"A game of RF and gradient pulses: Obtaining an efficient homogeneous flip \
+angle with strong inhomogeneous B1 fields\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/337831\\\"\\n  - image_url: \
+thesis\\\\schmitz.png\\n    caption: \\\"ISBN: 9789082196818 - Title: \
+Magnetic Resonance Imaging for Therapy Selection in Breast Cancer\\\"\\n    \
+name: \\\"Alexander Schmitz\\\"\\n    year: \\\"2016\\\"\\n    isbn: \
+\\\"9789082196818\\\"\\n    title: \\\"Magnetic Resonance Imaging for Therapy \
+Selection in Breast Cancer\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/325295\\\"\\n  - image_url: \
+thesis\\\\oorschot.png\\n    caption: \\\"ISBN: 9789039365106 - Title: \
+Endogenous assessment of myocardial fibrosis with quantitative MRI\\\"\\n    \
+name: \\\"Joep van Oorschot\\\"\\n    year: \\\"2016\\\"\\n    isbn: \
+\\\"9789039365106\\\"\\n    title: \\\"Endogenous assessment of myocardial \
+fibrosis with quantitative MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/328798\\\"\\n  - image_url: \
+thesis\\\\bhogal.png\\n    caption: \\\"ISBN: 9789039366226 - Title: MRI \
+Mapping of cerebral physiology using respiratory challenges\\\"\\n    name: \
+\\\"Alex Bhogal\\\"\\n    year: \\\"2016\\\"\\n    isbn: \
+\\\"9789039366226\\\"\\n    title: \\\"MRI Mapping of cerebral physiology \
+using respiratory challenges\\\"\\n    link: \\\"\\\"\\n  - image_url: thesis\
+\\\\khlebnikov.png\\n    caption: \\\"ISBN: 9789039366998 - Title: Chemical \
+exchange saturation transfer: from methodological developments to the new \
+applications\\\"\\n    name: \\\"Vitaliy Khlebnikov\\\"\\n    year: \
+\\\"2016\\\"\\n    isbn: \\\"9789039366998\\\"\\n    title: \\\"Chemical \
+exchange saturation transfer: from methodological developments to the new \
+applications\\\"\\n    link: \\\"\\\"\\n  - image_url: \
+thesis\\\\harteveld.png\\n    caption: \\\"ISBN: 9789039367759 - Title: In \
+vivo and ex vivo vessel wall MRI of the circle of Willis\\\"\\n    name: \
+\\\"Anita Harteveld\\\"\\n    year: \\\"2017\\\"\\n    isbn: \
+\\\"9789039367759\\\"\\n    title: \\\"In vivo and ex vivo vessel wall MRI of \
+the circle of Willis\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/350020\\\"\\n  - image_url: \
+thesis\\\\Luttje.png\\n    caption: \\\"ISBN: 9789039367742 - Title: Prostate \
+Cancer Characterization at Ultra-high Field MRI\\\"\\n    name: \\\"Mariska \
+Luttje\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789039367742\\\"\\n    \
+title: \\\"Prostate Cancer Characterization at Ultra-high Field MRI\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/350021\\\"\\n  - \
+image_url: thesis\\\\velden.png\\n    caption: \\\"ISBN: 9789039367827 - \
+Title: Novel techniques for 7 tesla breast MRI\\\"\\n    name: \\\"Tijl van \
+der Velden\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789039367827\\\"\\n  \
+  title: \\\"Novel techniques for 7 tesla breast MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/351284\\\"\\n  - image_url: \
+thesis\\\\restivo.png\\n    caption: \\\"ISBN: 9789402805079 - Title: \
+Assessment and Monitoring of RF Safety for Ultra-High Field MRI\\\"\\n    \
+name: \\\"Matthew Restivo\\\"\\n    year: \\\"2017\\\"\\n    isbn: \
+\\\"9789402805079\\\"\\n    title: \\\"Assessment and Monitoring of RF Safety \
+for Ultra-High Field MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/344992\\\"\\n  - image_url: \
+thesis\\\\menezes.png\\n    caption: \\\"ISBN: 9789039368480 - Title: Novel \
+Imaging Strategies for Breast Cancer Patients\\\"\\n    name: \\\"Gisela \
+Menezes\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789039368480\\\"\\n    \
+title: \\\"Novel Imaging Strategies for Breast Cancer Patients\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/358178\\\"\\n  - \
+image_url: thesis\\\\geurts.png\\n    caption: \\\"ISBN: 9789463801577 - \
+Title: High field mri of cerebral small vessel function\\\"\\n    name: \
+\\\"Lennart Geurts\\\"\\n    year: \\\"2017\\\"\\n    isbn: \\\"9789463801577\
+\\\"\\n    title: \\\"High field mri of cerebral small vessel function\\\"\\n \
+   link: \\\"\\\"\\n  - image_url: thesis\\\\haakma.png\\n    caption: \
+\\\"ISBN: 9789402811308 - Title: Advances in peripheral nerve MR imaging : \
+The application of diffusion MRI in neurological disorders\\\"\\n    name: \\\
+\"Wieke Haakma\\\"\\n    year: \\\"2018\\\"\\n    isbn: \\\"9789402811308\\\"\
+\\n    title: \\\"Advances in peripheral nerve MR imaging : The application \
+of diffusion MRI in neurological disorders\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/370151\\\"\\n  - image_url: \
+thesis\\\\hendriks.png\\n    caption: \\\"ISBN: 9789039370551 - Title: \
+Breaking technical barriers of MRI and MRS to explore human brain functions\\\
+\"\\n    name: \\\"Arjan Hendriks\\\"\\n    year: \\\"2018\\\"\\n    isbn: \\\
+\"9789039370551\\\"\\n    title: \\\"Breaking technical barriers of MRI and \
+MRS to explore human brain functions\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/372156\\\"\\n  - image_url: \
+thesis\\\\mandija.png\\n    caption: \\\"ISBN: 9789039369043 - Title: \
+Non-Invasive Characterization of Brain Tissue Electrical Properties with MRI \
+\\\"\\n    name: \\\"Stefano Mandija\\\"\\n    year: \\\"2018\\\"\\n    isbn: \
+\\\"9789039369043\\\"\\n    title: \\\"Non-Invasive Characterization of Brain \
+Tissue Electrical Properties with MRI \\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/357443\\\"\\n  - image_url: \
+thesis\\\\mooiweer.png\\n    caption: \\\"ISBN: 9789462999336 - Title: \
+Personalized 2D-selective RF excitation in high field MRI\\\"\\n    name: \
+\\\"Ronald Mooiweer\\\"\\n    year: \\\"2018\\\"\\n    isbn: \
+\\\"9789462999336\\\"\\n    title: \\\"Personalized 2D-selective RF \
+excitation in high field MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/363670\\\"\\n  - image_url: \
+thesis\\\\kleij.png\\n    caption: \\\"ISBN: 9789039371947 - Title: \
+Quantitative MRI markers for the brain at risk\\\"\\n    name: \\\"lisa van \
+der kleij\\\"\\n    year: \\\"2019\\\"\\n    isbn: \\\"9789039371947\\\"\\n   \
+ title: \\\"Quantitative MRI markers for the brain at risk\\\"\\n    link: \\\
+\"https://dspace.library.uu.nl/handle/1874/385154\\\"\\n  - image_url: thesis\
+\\\\rijssel.png\\n    caption: \\\"ISBN: 9789039371961 - Title: Artifact \
+Correction and Signal Quantification in High Field Breast MRI\\\"\\n    name: \
+\\\"Mike van Rijssel\\\"\\n    year: \\\"2019\\\"\\n    isbn: \
+\\\"9789039371961\\\"\\n    title: \\\"Artifact Correction and Signal \
+Quantification in High Field Breast MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/385433\\\"\\n  - image_url: \
+thesis\\\\krikken.png\\n    caption: \\\"ISBN: 9789039371220 - Title: Early \
+effects of neoadjuvant chemotherapy in breast cancer using metabolic \
+MRI\\\"\\n    name: \\\"Erwin Krikken\\\"\\n    year: \\\"2019\\\"\\n    \
+isbn: \\\"9789039371220\\\"\\n    title: \\\"Early effects of neoadjuvant \
+chemotherapy in breast cancer using metabolic MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/379860\\\"\\n  - image_url: \
+thesis\\\\steensma.png\\n    caption: \\\"ISBN: 9789402818659 - Title: \
+Design, safety and applications of radio-frequency antennas for ultra-high \
+field MRI of the body\\\"\\n    name: \\\"Bart Steensma\\\"\\n    year: \
+\\\"2019\\\"\\n    isbn: \\\"9789402818659\\\"\\n    title: \\\"Design, \
+safety and applications of radio-frequency antennas for ultra-high field MRI \
+of the body\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/389430\\\"\\n  - image_url: \
+thesis\\\\deboer.png\\n    caption: \\\"ISBN: 9789464230208 - Title: Renal \
+MRI: from Niche Application to New Tool in Nephrology\\\"\\n    name: \
+\\\"Anneloes de Boer\\\"\\n    year: \\\"2020\\\"\\n    isbn: \
+\\\"9789464230208\\\"\\n    title: \\\"Renal MRI: from Niche Application to \
+New Tool in Nephrology\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/400501\\\"\\n  - image_url: \
+thesis\\\\brinkhof.png\\n    caption: \\\"ISBN: 9789039372890 - Title: \
+Cartilage Properties Quantified With 7T MRI\\\"\\n    name: \\\"Sander \
+Brinkhof\\\"\\n    year: \\\"2020\\\"\\n    isbn: \\\"9789039372890\\\"\\n    \
+title: \\\"Cartilage Properties Quantified With 7T MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/399885\\\"\\n  - image_url: \
+thesis\\\\houtum.png\\n    caption: \\\"ISBN: 9789463759502 - Title: Tools \
+for quantitative MR imaging and spectroscopy for the improvement of therapy \
+evaluation in oncology\\\"\\n    name: \\\"Quincy van Houtum \\\"\\n    year: \
+\\\"2020\\\"\\n    isbn: \\\"9789463759502\\\"\\n    title: \\\"Tools for \
+quantitative MR imaging and spectroscopy for the improvement of therapy \
+evaluation in oncology\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/397299\\\"\\n  - image_url: \
+thesis\\\\tokaya.png\\n    caption: \\\"ISBN: 9789039372418 - Title: MRI \
+safety of implants: transfer function determination from MR images\\\"\\n    \
+name: \\\"Janot Tokaya\\\"\\n    year: \\\"2020\\\"\\n    isbn: \
+\\\"9789039372418\\\"\\n    title: \\\"MRI safety of implants: transfer \
+function determination from MR images\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/388833\\\"\\n  - image_url: \
+thesis\\\\sloots.png\\n    caption: \\\"ISBN: 9789039374122 - Title: \
+Quantitative MRI of physiological brain tissue deformation in humans\\\"\\n   \
+ name: \\\"Jacob Jan Sloots\\\"\\n    year: \\\"2021\\\"\\n    isbn: \
+\\\"9789039374122\\\"\\n    title: \\\"Quantitative MRI of physiological \
+brain tissue deformation in humans\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/406673\\\"\\n  - image_url: \
+thesis\\\\Lindenholz.png\\n    caption: \\\"ISBN: 9789464165081 - Title: \
+Intracranial Vessel Wall MR Imaging: From Bench to Bedside\\\"\\n    name: \\\
+\"Arjen Lindenholz\\\"\\n    year: \\\"2021\\\"\\n    isbn: \\\"9789464165081\
+\\\"\\n    title: \\\"Intracranial Vessel Wall MR Imaging: From Bench to \
+Bedside\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/402426\\\
+\"\\n  - image_url: thesis\\\\Hespen.png\\n    caption: \\\"ISBN: \
+9789039373682 - Title: The brain at risk: Detection and quantification of \
+cerebrovascular disease\\\"\\n    name: \\\"Kees van Hespen\\\"\\n    year: \
+\\\"2021\\\"\\n    isbn: \\\"9789039373682\\\"\\n    title: \\\"The brain at \
+risk: Detection and quantification of cerebrovascular disease\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/402441\\\"\\n  - image_url: \
+thesis\\\\arts.png\\n    caption: \\\"ISBN: 9789464168037 - Title: New \
+perspectives on the cerebral small vessels with 7T MRI\\\"\\n    name: \
+\\\"Tine Arts\\\"\\n    year: \\\"2021\\\"\\n    isbn: \
+\\\"9789464168037\\\"\\n    title: \\\"New perspectives on the cerebral small \
+vessels with 7T MRI\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/406832\\\"\\n\"\>"], "Output",
+ CellLabel->"Out[4]=",ExpressionUUID->"c13a8743-a771-4a8e-90b2-edee49a48472"]
+}, Open  ]]
 },
-WindowSize->{1920, 1117},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1904, 1109},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c23b2a9b-db8d-46e4-9242-1654fe5773a1"
@@ -374,14 +431,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 2340, 62, 170, "Input",ExpressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
-Cell[2923, 86, 18655, 247, 6274, "Output",ExpressionUUID->"c2d00278-2ee0-4803-a84b-566a0717e43b"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[21615, 338, 158, 3, 29, "Input",ExpressionUUID->"711a2ed5-8b95-475d-871c-cb6a5e68b02e"],
-Cell[21776, 343, 387, 7, 33, "Output",ExpressionUUID->"95d19563-4bf5-4e1f-b13a-0a9f920daddf"]
-}, Open  ]],
-Cell[22178, 353, 173, 3, 70, "Input",ExpressionUUID->"42a5385e-f259-4dac-8d66-4e1f91904972"]
+Cell[580, 22, 3035, 78, 230, "Input",ExpressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
+Cell[3618, 102, 323, 5, 33, "Output",ExpressionUUID->"f8634e28-5f10-4df0-8f08-3324c98764b1"],
+Cell[3944, 109, 298, 5, 33, "Output",ExpressionUUID->"0c0432f8-a085-40ce-9be3-ea717133323f"],
+Cell[4245, 116, 21473, 296, 7174, "Output",ExpressionUUID->"c13a8743-a771-4a8e-90b2-edee49a48472"]
+}, Open  ]]
 }
 ]
 *)

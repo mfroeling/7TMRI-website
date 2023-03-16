@@ -12,6 +12,14 @@ subheadline: 'The work we did over the years'
 tags: about
 
 gallery:
+  - image_url: thesis\bergen.png
+    caption: "ISBN: 9789039352557 - Title: RF control for 7T body \
+MRI: in search of the prostate"
+    name: "Bob van den bergen"
+    year: "2010"
+    isbn: "9789039352557"
+    title: "RF control for 7T body MRI: in search of the prostate"
+    link: "https://dspace.library.uu.nl/handle/1874/37551"
   - image_url: thesis\korteweg.png
     caption: "ISBN: 9789039356814 - Title: High field MRI of axillary \
 lymph nodes and breast cancer"
@@ -62,6 +70,16 @@ amyotrophic lateral sclerosis"
     isbn: "9789090271835"
     title: "Traces of disease in amyotrophic lateral sclerosis"
     link: "https://dspace.library.uu.nl/handle/1874/258024"
+  - image_url: thesis\lier.png
+    caption: "ISBN: 9789039357859 - Title: Electromagnetic and \
+Thermal Aspects of Radiofrequency Field Propagation in Ultra-High \
+Field MRI"
+    name: "Astrid van Lier"
+    year: "2012"
+    isbn: "9789039357859"
+    title: "Electromagnetic and Thermal Aspects of Radiofrequency \
+Field Propagation in Ultra-High Field MRI"
+    link: "https://dspace.library.uu.nl/handle/1874/242202"
   - image_url: thesis\andreychenko.png
     caption: "ISBN: 9789461084866 - Title: Radiofrequency solutions \
 in clinical high field magnetic resonance"
@@ -160,6 +178,15 @@ exploration of a radiative antenna for 7T pelvic MR imaging"
     title: "Electromagnetic exploration of a radiative antenna for 7T \
 pelvic MR imaging"
     link: "https://dspace.library.uu.nl/handle/1874/294786"
+  - image_url: thesis\brundel.png
+    caption: "ISBN: 9789039361870 - Title: Diabetes and microvascular \
+disease in Vascular Cognitive Impairment"
+    name: "Manon Brundel "
+    year: "2014"
+    isbn: "9789039361870"
+    title: "Diabetes and microvascular disease in Vascular Cognitive \
+Impairment"
+    link: "https://dspace.library.uu.nl/handle/1874/298813"
   - image_url: thesis\vis.png
     caption: "ISBN: 9789462594944 - Title: MRI quantitative \
 hemodynamic evaluation of the brain"
@@ -177,6 +204,14 @@ patients with stroke or Cushing's disease"
     title: "High resolution MRI in patients with stroke or Cushing's \
 disease"
     link: "https://dspace.library.uu.nl/handle/1874/310942"
+  - image_url: thesis\veluw.png
+    caption: "ISBN: 9789039363775 - Title: Microvascular brain \
+pathology on high resolution MRI"
+    name: "Susanne van Veluw"
+    year: "2015"
+    isbn: "9789039363775"
+    title: "Microvascular brain pathology on high resolution MRI"
+    link: "https://dspace.library.uu.nl/handle/1874/319774"
   - image_url: thesis\dieleman.png
     caption: "ISBN: 9789039366387 - Title: MR imaging of intracranial \
 vessel wall pathologies and parenchymal brain damage"
@@ -214,6 +249,25 @@ myocardial fibrosis with quantitative MRI"
     title: "Endogenous assessment of myocardial fibrosis with \
 quantitative MRI"
     link: "https://dspace.library.uu.nl/handle/1874/328798"
+  - image_url: thesis\bhogal.png
+    caption: "ISBN: 9789039366226 - Title: MRI Mapping of cerebral \
+physiology using respiratory challenges"
+    name: "Alex Bhogal"
+    year: "2016"
+    isbn: "9789039366226"
+    title: "MRI Mapping of cerebral physiology using respiratory \
+challenges"
+    link: ""
+  - image_url: thesis\khlebnikov.png
+    caption: "ISBN: 9789039366998 - Title: Chemical exchange \
+saturation transfer: from methodological developments to the new \
+applications"
+    name: "Vitaliy Khlebnikov"
+    year: "2016"
+    isbn: "9789039366998"
+    title: "Chemical exchange saturation transfer: from \
+methodological developments to the new applications"
+    link: ""
   - image_url: thesis\harteveld.png
     caption: "ISBN: 9789039367759 - Title: In vivo and ex vivo vessel \
 wall MRI of the circle of Willis"
@@ -256,6 +310,14 @@ for Breast Cancer Patients"
     isbn: "9789039368480"
     title: "Novel Imaging Strategies for Breast Cancer Patients"
     link: "https://dspace.library.uu.nl/handle/1874/358178"
+  - image_url: thesis\geurts.png
+    caption: "ISBN: 9789463801577 - Title: High field mri of cerebral \
+small vessel function"
+    name: "Lennart Geurts"
+    year: "2017"
+    isbn: "9789463801577"
+    title: "High field mri of cerebral small vessel function"
+    link: ""
   - image_url: thesis\haakma.png
     caption: "ISBN: 9789402811308 - Title: Advances in peripheral \
 nerve MR imaging : The application of diffusion MRI in neurological \
@@ -319,6 +381,16 @@ neoadjuvant chemotherapy in breast cancer using metabolic MRI"
     title: "Early effects of neoadjuvant chemotherapy in breast \
 cancer using metabolic MRI"
     link: "https://dspace.library.uu.nl/handle/1874/379860"
+  - image_url: thesis\steensma.png
+    caption: "ISBN: 9789402818659 - Title: Design, safety and \
+applications of radio-frequency antennas for ultra-high field MRI of \
+the body"
+    name: "Bart Steensma"
+    year: "2019"
+    isbn: "9789402818659"
+    title: "Design, safety and applications of radio-frequency \
+antennas for ultra-high field MRI of the body"
+    link: "https://dspace.library.uu.nl/handle/1874/389430"
   - image_url: thesis\deboer.png
     caption: "ISBN: 9789464230208 - Title: Renal MRI: from Niche \
 Application to New Tool in Nephrology"
@@ -372,60 +444,6 @@ MR Imaging: From Bench to Bedside"
     isbn: "9789464165081"
     title: "Intracranial Vessel Wall MR Imaging: From Bench to Bedside"
     link: "https://dspace.library.uu.nl/handle/1874/402426"
-  - image_url: thesis\brundel.png
-    caption: "ISBN: 9789039361870 - Title: Diabetes and microvascular \
-disease in Vascular Cognitive Impairment"
-    name: "Manon Brundel "
-    year: "2014"
-    isbn: "9789039361870"
-    title: "Diabetes and microvascular disease in Vascular Cognitive \
-Impairment"
-    link: "https://dspace.library.uu.nl/handle/1874/298813"
-  - image_url: thesis\bhogal.png
-    caption: "ISBN: 9789039366226 - Title: MRI Mapping of cerebral \
-physiology using respiratory challenges"
-    name: "Alex Bhogal"
-    year: "2016"
-    isbn: "9789039366226"
-    title: "MRI Mapping of cerebral physiology using respiratory \
-challenges"
-    link: ""
-  - image_url: thesis\veluw.png
-    caption: "ISBN: 9789039363775 - Title: Microvascular brain \
-pathology on high resolution MRI"
-    name: "Susanne van Veluw"
-    year: "2015"
-    isbn: "9789039363775"
-    title: "Microvascular brain pathology on high resolution MRI"
-    link: "https://dspace.library.uu.nl/handle/1874/319774"
-  - image_url: thesis\khlebnikov.png
-    caption: "ISBN: 9789039366998 - Title: Chemical exchange \
-saturation transfer: from methodological developments to the new \
-applications"
-    name: "Vitaliy Khlebnikov"
-    year: "2016"
-    isbn: "9789039366998"
-    title: "Chemical exchange saturation transfer: from \
-methodological developments to the new applications"
-    link: ""
-  - image_url: thesis\bergen.png
-    caption: "ISBN: 9789039352557 - Title: RF control for 7T body \
-MRI: in search of the prostate"
-    name: "Bob van den bergen"
-    year: "2010"
-    isbn: "9789039352557"
-    title: "RF control for 7T body MRI: in search of the prostate"
-    link: "https://dspace.library.uu.nl/handle/1874/37551"
-  - image_url: thesis\lier.png
-    caption: "ISBN: 9789039357859 - Title: Electromagnetic and \
-Thermal Aspects of Radiofrequency Field Propagation in Ultra-High \
-Field MRI"
-    name: "Astrid van Lier"
-    year: "2012"
-    isbn: "9789039357859"
-    title: "Electromagnetic and Thermal Aspects of Radiofrequency \
-Field Propagation in Ultra-High Field MRI"
-    link: "https://dspace.library.uu.nl/handle/1874/242202"
   - image_url: thesis\Hespen.png
     caption: "ISBN: 9789039373682 - Title: The brain at risk: \
 Detection and quantification of cerebrovascular disease"
@@ -443,29 +461,11 @@ cerebral small vessels with 7T MRI"
     isbn: "9789464168037"
     title: "New perspectives on the cerebral small vessels with 7T MRI"
     link: "https://dspace.library.uu.nl/handle/1874/406832"
-  - image_url: thesis\geurts.png
-    caption: "ISBN: 9789463801577 - Title: High field mri of cerebral \
-small vessel function"
-    name: "Lennart Geurts"
-    year: "2017"
-    isbn: "9789463801577"
-    title: "High field mri of cerebral small vessel function"
-    link: ""
-  - image_url: thesis\steensma.png
-    caption: "ISBN: 9789402818659 - Title: Design, safety and \
-applications of radio-frequency antennas for ultra-high field MRI of \
-the body"
-    name: "Bart Steensma"
-    year: "2019"
-    isbn: "9789402818659"
-    title: "Design, safety and applications of radio-frequency \
-antennas for ultra-high field MRI of the body"
-    link: "https://dspace.library.uu.nl/handle/1874/389430"
 
 ---
 
 {% include gallery_thesis %}
 
-<br>
 ### About us
+
 {% include list-pages tag="about" %}
