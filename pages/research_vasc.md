@@ -48,6 +48,7 @@ High-field high-resolution functional and structural MRI, neurovascular coupling
 - Cerebrovascular reactivity, perfusion and oxygen extraction fraction after radiotherapy of brain tumours
 - Line-scanning for ultra-high spatiotemporal resolution functional MRI
 - VASO for laminar fMRI
+- Denoising strategies to improve high-resolution fMRI
 
 
 <br>
