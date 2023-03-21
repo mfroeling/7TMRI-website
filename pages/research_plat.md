@@ -6,8 +6,8 @@ header:
   image_fullwidth: "banners/platform.png"
 
 title: "Platform and methods"
-subheadline: 'subtitle'
-teaser: 'teaser'
+subheadline: ''
+teaser: 'We make the system work how we want it'
 
 images:
   - image_id: ''

@@ -10,7 +10,7 @@ subheadline: ''
 teaser: ''
 
 images:
-  - image_id: 'im_1'
+  - image_id: ''
     image_name: ''
     image_title: ''
     image_alt: ''
@@ -19,7 +19,7 @@ tags: groups
 
 ---
 
-{% include page-image im_id="im_1" %}
+Under construction
 
 ### Ongoing research projects
 

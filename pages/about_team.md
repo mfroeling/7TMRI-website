@@ -13,6 +13,8 @@ tags: about
 
 ---
 
+Currently our research group consists of the following people:
+
 ### Professors
 
 - [Dennis Klomp](https://www.umcutrecht.nl/en/research/researchers/klomp-dwj){:target="_blank"}

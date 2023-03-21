@@ -6,8 +6,8 @@ header:
   image_fullwidth: "banners/scanner.png"
 
 title: "Pre-clinical Imaging Group"
-subheadline: 'subtitle'
-teaser: 'teaser'
+subheadline: 'Biomedical MR imaging amd spectroscopy'
+teaser: 'Experimental and translational neuroimaging'
 
 images:
   - image_id: 'lab'
@@ -27,7 +27,7 @@ The main research areas are:
 - [Structure and function of neural networks](https://dijkhuizenlab.nl/structure-and-function-of-neural-networks/)
 - [Stroke recovery, neuroplasticity and brain stimulation](https://dijkhuizenlab.nl/stroke-recovery-neuroplasticity-and-brain-stimulation-2/)
 
-{% include page-images %}
+{% include page-image im_id="lab" %}
 
 the laboratory is equipped with two state-of-the-art animal MR systems with field strengths of 9.4 T and 7 T. In addition, in vivo optical imaging and transcranial magnetic stimulation (TMS) set-ups are available for multimodal studies.
 

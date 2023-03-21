@@ -21,7 +21,7 @@ tags: groups
 
 The Vascular Brain Imaging group’s mission is the development of high-field MRI methods that target the cerebrovascular structure and function with high sensitivity and precision and their application in brain imaging in health and disease.
 
-{% include page-images %}
+{% include page-image im_id="over" %}
 
 Developments encompass hardware, MRI and fMRI data acquisition methods, analysis methods, and biophysical and computational models.
 Applications encompass neurological and cerebrovascular diseases, neurovascular coupling, and neuroscience.

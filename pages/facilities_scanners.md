@@ -7,13 +7,22 @@ header:
     image_fullwidth: "banners/scanners.png"
 
 title: "High field scanners"
-subheadline: 'bla bla bla'
+subheadline: 'our toys'
 
 tags: facilities
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Under construction.
+
+- 7T human whole body MRI system with various consoles
+  - Classic: 2 channel transmit and 16 channel receive. Local x-nuclei transmit and recieve.
+  - Multix: 8 channel transmit and 32 channel receive. Local x-nuclei transmit and recieve.
+  - META: 8 channel transmit and 64 channel receive. Integrated multi tuned x-nuclei bore coil and 16 channel receive.
+  - DUST: Digital upgrade of the Classic console.
+- 9.4T varian preclinal MRI system
+- 7T Bruker preclinical MRI system interfaced with the META scanner console (identical to human 7T).
+- Preped scanner room for a 2nd 7T Human whole body system dedicated to x-nuclei, i.e. METAscan
 
 ### Other facilities
 
