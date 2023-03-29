@@ -464,6 +464,8 @@ cerebral small vessels with 7T MRI"
 
 ---
 
+Below you can find an overview of the PhD thesises that were completed in our group.
+
 {% include gallery_thesis %}
 
 ### About us

@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 ---
 
 layout: page
 permalink: /research/vascular/
 header:
-  image_fullwidth: "scanner.jpg"
+  image_fullwidth: "banners/scanner.png"
 
 title: "Vascular Brain Imaging Group"
 subheadline: ""
@@ -22,12 +21,13 @@ tags: groups
 
 The Vascular Brain Imaging group’s mission is the development of high-field MRI methods that target the cerebrovascular structure and function with high sensitivity and precision and their application in brain imaging in health and disease.
 
-{% include page-images %}
+{% include page-image im_id="over" %}
 
 Developments encompass hardware, MRI and fMRI data acquisition methods, analysis methods, and biophysical and computational models.
 Applications encompass neurological and cerebrovascular diseases, neurovascular coupling, and neuroscience.
 
 Principal investigators:
+
 - ***Jeroen Siero (PI, Scientific Manager)***  
 Vascular imaging methods for unravelling brain physiology regarding blood flow and oxygenation in health and disease: small vessel disease, brain tumours, and stroke.
 The focus is on high-resolution and fast scanning using developed state-of-the-art hardware such as insert gradient coils.
@@ -38,11 +38,12 @@ High-field methods targeting vascular- and intracranial fluid dynamics including
 - ***Natalia Petridou (PI)***  
 High-field high-resolution functional and structural MRI, neurovascular coupling, neuroscience.
 
-- ***Alex Bhogal (PI)***  
+- ***Alex Bhogal (PI)***
 
-<br>
 ### Ongoing research projects
+
 {% include list-research tag="research" grp='grp_vasc' %}
+
 - Predicting consequences of small vessel disease using machine learning and 7T & 3T MRI for vessel function and tissue structure assessment
 - Clinical CVR and perfusion mapping in ischemic stroke and moyamoya disease
 - Oxygen extraction fraction and perfusion mapping
@@ -63,4 +64,3 @@ High-field high-resolution functional and structural MRI, neurovascular coupling
 <br>
 ### Our research groups
 {% include list-pages tag="groups" %}
-
