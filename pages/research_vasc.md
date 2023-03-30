@@ -49,13 +49,18 @@ High-field high-resolution functional and structural MRI, neurovascular coupling
 - Oxygen extraction fraction and perfusion mapping
 - Cerebrovascular reactivity, perfusion and oxygen extraction fraction after radiotherapy of brain tumours
 - Line-scanning for ultra-high spatiotemporal resolution functional MRI
-- VASO for laminar fMRI
 - Denoising strategies to improve high-resolution fMRI
+- Multi-contrast laminar fMRI (BOLD, VASO, ASL)
+- Ultra-high resolution fMRI & MRI with high density receive arrays & insert gradient
+- Laminar cerebrovascular reactivity (macro/micro-vessels) in health and dementia
+- Imaging (microsopy & MRI) and modeling of the human cortical vasculature
+- Computational modeling of the cortical vascular structure, hemodynamics, and resulting functional MRI signals
+- Characterization & modelling of somatosensory processing to tactile stimuli (Electrocorticography, fMRI, population receptive field (pRF) modeling)
 
+<br>
 ### Completed research projects
-
 {% include list-research tag="research" grp='grp_vasc' %}
 
+<br>
 ### Our research groups
-
 {% include list-pages tag="groups" %}
