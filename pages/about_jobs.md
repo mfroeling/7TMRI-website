@@ -6,14 +6,14 @@ permalink: /about/jobs/
 header:
     image_fullwidth: "banners/scanner.png"
 
-title: "Job Oppertunities"
+title: "Job Opportunities"
 subheadline: 'Join our team'
 
 tags: about
 
 ---
 
-Below you can find a list of open positions in our group for which we are looking for enthosiastic and motivated people.
+Below you can find a list of open positions in our group for which we are looking for enthusiastic and motivated people.
 
 ### Job Opportunities
 
