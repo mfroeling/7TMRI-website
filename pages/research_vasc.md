@@ -28,15 +28,17 @@ Applications encompass neurological and cerebrovascular diseases, neurovascular 
 Principal investigators:
 
 - ***Jeroen Siero (PI, Scientific Manager)***  
+<<<<<<< HEAD
 High-field methods to investigate brain physiology related to perfusion, oxygen metabolism, and neurovascular coupling.
 The focus is on high-resolution and fast and silent scanning using state-of-the-art hardware such as (ultrasonic) insert gradient coils.
-https://www.umcutrecht.nl/en/research/researchers/siero-jcw
+[Jeroen Siero>>](https://www.umcutrecht.nl/en/research/researchers/siero-jcw)
+>>>>>>> upstream/master
 - ***Jaco Zwanenburg (PI, Scientific Director)***  
 High-field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
-https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm
+[Jaco Zwanenburg>>](https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm)
 - ***Natalia Petridou (PI)***  
 High-field high-resolution functional and structural MRI, neurovascular coupling, neuroscience.
-https://www.umcutrecht.nl/en/research/researchers/petridou-n
+[Natalia Petridou>>](https://www.umcutrecht.nl/en/research/researchers/petridou-n)
 - ***Alex Bhogal (PI)***
 
 ### Ongoing research projects

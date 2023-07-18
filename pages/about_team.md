@@ -22,12 +22,12 @@ Currently our research group consists of the following people:
 
 ### Associate professors
 
-- Jaco Zwanenburg
+- [Jaco Zwanenburg](https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm){:target="_blank"}
 - [Jannie Wijnen](https://www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp){:target="_blank"}
-- Natalia Petridou
+- [Natalia Petridou](https://www.umcutrecht.nl/en/research/researchers/petridou-n){:target="_blank"}
 - Hans Hoogduin
 - Jeanine Prompers
-- Jeroen Siero
+- [Jeroen Siero](https://www.umcutrecht.nl/en/research/researchers/siero-jcw){:target="_blank"}
 
 ### Assistant professors
 
