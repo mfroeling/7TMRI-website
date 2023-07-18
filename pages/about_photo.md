@@ -32,13 +32,16 @@ gallery:
     title: "7TMRI at the division party"
   - image_url: gallery_grp\2022_ismrm_1.jpg
     caption: "group photo at the 2022 ISMRM"
-    title: "7TMRI at the ismrm"
+    title: "7TMRI at the ISMRM"
   - image_url: gallery_grp\2022_ismrm_2.jpg
     caption: "group photo at the 2022 ISMRM"
-    title: "7TMRI at the ismrm"
+    title: "7TMRI at the ISMRM"
   - image_url: gallery_grp\2022_saint_nicholas.jpg
     caption: "Saint Nicholas visiting the 7T group"
     title: "7TMRI Sain Nicholas"
+  - image_url: gallery_grp\2023_ISMRM.jpg
+    caption: "group photo at the 2023 ISMRM"
+    title: "7TMRI at the ISMRM"
 
 ---
 

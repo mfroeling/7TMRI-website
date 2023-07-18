@@ -74,7 +74,7 @@ Currently our research group consists of the following people:
 - Mark Gosselink
 - Zahra Shams
 - Sarah Jacobs
-- Narjes Ahmadian
+- [Narjes Ahmadian](https://www.linkedin.com/in/narjes-ahmadian-553119107){:target="_blank"}
 - Pien Jellema
 - Ayhan Ghursan
 - Kyungmin Nam
@@ -89,6 +89,7 @@ Currently our research group consists of the following people:
 - Rik Weersink
 - Luc Willems
 - Maaike Konig
+- Karleen Oonk
 - ...
 
 ### About us
