@@ -31,13 +31,13 @@ Principal investigators:
 - ***Jeroen Siero (PI, Scientific Manager)***  
 Vascular imaging methods for unravelling brain physiology regarding blood flow and oxygenation in health and disease: small vessel disease, brain tumours, and stroke.
 The focus is on high-resolution and fast scanning using developed state-of-the-art hardware such as insert gradient coils.
-https://www.umcutrecht.nl/en/research/researchers/siero-jcw
+[Jeroen Siero>>](https://www.umcutrecht.nl/en/research/researchers/siero-jcw)
 - ***Jaco Zwanenburg (PI, Scientific Director)***  
 High-field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
-https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm
+[Jaco Zwanenburg>>](https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm)
 - ***Natalia Petridou (PI)***  
 High-field high-resolution functional and structural MRI, neurovascular coupling, neuroscience.
-https://www.umcutrecht.nl/en/research/researchers/petridou-n
+[Natalia Petridou>>](https://www.umcutrecht.nl/en/research/researchers/petridou-n)
 - ***Alex Bhogal (PI)***
 
 ### Ongoing research projects
