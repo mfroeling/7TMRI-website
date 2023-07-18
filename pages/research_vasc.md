@@ -18,9 +18,8 @@ images:
 tags: groups
 
 ---
-
-The Vascular Brain Imaging group’s mission is the development of high-field MRI methods that target the cerebrovascular structure and function with high sensitivity and precision and their application in brain imaging in health and disease.
-
+The mission of the Vascular Brain Imaging group is to develop highly sensitive and precise high-field MRI methods that specifically focus on the cerebrovascular structure and function.
+These methods are then applied in brain imaging for both healthy individuals and those affected by various diseases.
 {% include page-image im_id="over" %}
 
 Developments encompass hardware, MRI and fMRI data acquisition methods, analysis methods, and biophysical and computational models.
@@ -29,9 +28,11 @@ Applications encompass neurological and cerebrovascular diseases, neurovascular 
 Principal investigators:
 
 - ***Jeroen Siero (PI, Scientific Manager)***  
-Vascular imaging methods for unravelling brain physiology regarding blood flow and oxygenation in health and disease: small vessel disease, brain tumours, and stroke.
-The focus is on high-resolution and fast scanning using developed state-of-the-art hardware such as insert gradient coils.
+<<<<<<< HEAD
+High-field methods to investigate brain physiology related to perfusion, oxygen metabolism, and neurovascular coupling.
+The focus is on high-resolution and fast and silent scanning using state-of-the-art hardware such as (ultrasonic) insert gradient coils.
 [Jeroen Siero>>](https://www.umcutrecht.nl/en/research/researchers/siero-jcw)
+>>>>>>> upstream/master
 - ***Jaco Zwanenburg (PI, Scientific Director)***  
 High-field methods targeting vascular- and intracranial fluid dynamics including brain waste clearance, for the study of cerebral small vessel disease.
 [Jaco Zwanenburg>>](https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm)
