@@ -25,17 +25,17 @@ Currently our research group consists of the following people:
 - [Jaco Zwanenburg](https://www.umcutrecht.nl/en/research/researchers/zwanenburg-jaco-j-m-jjm){:target="_blank"}
 - [Jannie Wijnen](https://www.umcutrecht.nl/en/research/researchers/wijnen-jannie-jp){:target="_blank"}
 - [Natalia Petridou](https://www.umcutrecht.nl/en/research/researchers/petridou-n){:target="_blank"}
-- Hans Hoogduin
-- Jeanine Prompers
+- [Hans Hoogduin](https://www.umcutrecht.nl/en/research/researchers/hoogduin-jm){:target="_blank"}
+- [Jeanine Prompers](https://www.umcutrecht.nl/en/research/researchers/prompers-jeanine-jj){:target="_blank"}
 - [Jeroen Siero](https://www.umcutrecht.nl/en/research/researchers/siero-jcw){:target="_blank"}
 
 ### Assistant professors
 
 - [Martijn Froeling](https://www.umcutrecht.nl/en/research/researchers/froeling-martijn-m){:target="_blank"}
-- Alexander Raaijmakers
-- Evita Wiegers
+- [Alexander Raaijmakers](https://www.tue.nl/en/research/researchers/alexander-raaijmakers){:target="_blank"}
+- [Evita Wiegers](https://www.umcutrecht.nl/en/research/researchers/wiegers-evita-ec){:target="_blank"}
 - [Alex Bhogal](https://www.seevr.nl/){:target="_blank"}
-- Chantal Tax
+- [Chantal Tax](https://www.umcutrecht.nl/en/research/researchers/tax-chantal-cmw){:target="_blank"}
 
 ### Support staff
 
