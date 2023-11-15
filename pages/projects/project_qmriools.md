@@ -62,3 +62,7 @@ When using the toolbox please cite one of the following references:
 4. Schlaffke L, et al.: *Multi‐center evaluation of stability and reproducibility of
    quantitative MRI measures in healthy calf muscles*. NMR Biomed. 2019;32:e4119
    [link](https://onlinelibrary.wiley.com/doi/full/10.1002/nbm.4119){:target="_blank"}
+
+### Ongoing projects
+
+{% include list-research tag="projects" grp="grp_soft" %}

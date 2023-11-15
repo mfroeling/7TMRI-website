@@ -22,3 +22,6 @@ tags:
 
 
 
+### Ongoing projects
+
+{% include list-research tag="projects" grp="grp_coil" %}
