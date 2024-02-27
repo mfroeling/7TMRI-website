@@ -3,7 +3,7 @@
 layout: page
 permalink: /projects/qmritools
 header:
-  image_fullwidth: "software.png"
+  image_fullwidth: "banners/qmritools.png"
 
 title: "QMRITools"
 subheadline: 'Analysis of quantitative magnetic resonance imaging data'

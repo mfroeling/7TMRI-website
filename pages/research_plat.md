@@ -21,9 +21,10 @@ tags: groups
 
 The Platform and Methods group aims to develop and maintain the 7T platform and to provide MR methods that enable cutting edge research. This includes both hardware and software developments where the main topics are development of:
 
-MR Infrastructure and platform
-Coils interfacing and safety
-Software and sequence development
+- MR Infrastructure and platform
+- Coils interfacing and safety
+- Software and sequence development
+
 Principal investigators:
 
 - ***Hans Hoogduin***  
