@@ -7,7 +7,7 @@ header:
 
 title: "seeVR"
 subheadline: 'A TOOLBOX FOR ANALYZING CEREBRO-VASCULAR REACTIVITY DATA'
-teaser: 'CVR mapping with or without respiratory stimulus, Hemodynamic lag'
+teaser: 'CVR mapping, Lag mapping, Dispersion mapping'
 
 images:
   - image_id: 'CVR'
@@ -32,7 +32,7 @@ case of resting-state CVR. In addition to mapping hemodynamic responses, seeVR a
 pre-processing tools for de-noising, nuisance signal regression and spatial smoothing as well as 
 image registration. The toolbox is developed using [Matlab](https://nl.mathworks.com/products/matlab.html), and 
 its primary goal is to facilitate fast, advanced processing of CVR data. All code is available for download
-at [Github] (https://github.com/abhogal-lab/seeVR).
+at [Github](https://github.com/abhogal-lab/seeVR).
 
 {% include page-image im_id = 'CVR'%}
 
