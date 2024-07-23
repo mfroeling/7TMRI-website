@@ -27,15 +27,15 @@ The MRS-group develops 1H, 2H, 31P, 13C, 19F and 23Na metabolic imaging methods 
 
 ### Ongoing research projects
 
-{% include list-research tag="research" grp='grp_meta' %}
-
 - MR imaging and metabolic imaging in adult and pediatric brain tumors
 - MR imaging and spectroscopy of metabolism and mitochondrial function in metabolic disorders
 - Functional metabolic imaging of cerebral physiology in brain disorders
 
+{% include list-research tag="research" grp='grp_meta' %}
+
 ### Completed research projects
 
-{% include list-research tag="research" grp='grp_meta' %}
+{% include list-research tag="research" grp='grp_meta_done' %}
 
 ### Our research groups
 
