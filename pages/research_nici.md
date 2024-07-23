@@ -6,7 +6,7 @@ header:
   image_fullwidth: "banners/scanner.png"
 
 title: "The NICI project"
-subheadline: 'Vnlocking metabolic insights for enhanced diagnostics and patient care'
+subheadline: 'Unlocking metabolic insights for enhanced diagnostics and patient care'
 teaser: 'Harnessing the power of high-field MRI'
 
 images:
