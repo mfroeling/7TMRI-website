@@ -33,7 +33,7 @@ images:
 
 tags: 
   - research
-  - grp_meta
+  - grp_meta_done
 
 ---
 
