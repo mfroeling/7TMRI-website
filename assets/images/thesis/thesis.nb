@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26410,        434]
-NotebookOptionsPosition[     25734,        415]
-NotebookOutlinePosition[     26136,        431]
-CellTagsIndexPosition[     26093,        428]
+NotebookDataLength[     32503,        516]
+NotebookOptionsPosition[     31830,        497]
+NotebookOutlinePosition[     32229,        513]
+CellTagsIndexPosition[     32186,        510]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,23 +25,21 @@ Cell[BoxData[{
   RowBox[{"list", "=", 
    RowBox[{
     RowBox[{
-    "Import", "[", 
-     "\"\<D:\\\\werk\\\\workspace\\\\7TMRI-website\\\\assets\\\\images\\\\\
-thesis\\\\thesis.xlsx\>\"", "]"}], "[", 
+    "Import", 
+     "[", "\"\<D:\\\\werk\\\\workspace\\\\7TMRI-website\\\\assets\\\\images\\\
+\\thesis\\\\thesis.xlsx\>\"", "]"}], "[", 
     RowBox[{"[", 
      RowBox[{"1", ",", 
       RowBox[{"2", ";;"}]}], "]"}], "]"}]}], ";"}], "\n", 
  RowBox[{"labs", "=", 
   RowBox[{"{", 
-   RowBox[{
-   "\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", ",", 
-    "\"\<    name\>\"", ",", "\"\<    year\>\"", ",", "\"\<    isbn\>\"", 
-    ",", "\"\<    title\>\"", ",", "\"\<    link\>\""}], "}"}]}], "\n", 
+   RowBox[{"\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", 
+    ",", "\"\<    name\>\"", ",", "\"\<    year\>\"", ",", "\"\<    isbn\>\"",
+     ",", "\"\<    title\>\"", ",", "\"\<    link\>\""}], "}"}]}], "\n", 
  RowBox[{"{", 
-  RowBox[{
-  "\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", ",", 
-   "\"\<    name\>\"", ",", "\"\<    year\>\"", ",", "\"\<    isbn\>\"", ",", 
-   "\"\<    title\>\""}], "}"}], "\n", 
+  RowBox[{"\"\<  - image_url\>\"", ",", "\"\<    caption\>\"", 
+   ",", "\"\<    name\>\"", ",", "\"\<    year\>\"", ",", "\"\<    isbn\>\"", 
+   ",", "\"\<    title\>\""}], "}"}], "\n", 
  RowBox[{"StringJoin", "[", 
   RowBox[{
    RowBox[{
@@ -105,14 +103,16 @@ Cell[BoxData[
   RowBox[{"\<\"  - image_url\"\>", ",", "\<\"    caption\"\>", 
    ",", "\<\"    name\"\>", ",", "\<\"    year\"\>", ",", "\<\"    isbn\"\>", 
    ",", "\<\"    title\"\>", ",", "\<\"    link\"\>"}], "}"}]], "Output",
- CellLabel->"Out[2]=",ExpressionUUID->"f8634e28-5f10-4df0-8f08-3324c98764b1"],
+ CellChangeTimes->{3.9763544323016624`*^9, 3.976359187664343*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"b55c2a10-4c33-314a-95b8-11d510ba08b6"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"  - image_url\"\>", ",", "\<\"    caption\"\>", 
    ",", "\<\"    name\"\>", ",", "\<\"    year\"\>", ",", "\<\"    isbn\"\>", 
    ",", "\<\"    title\"\>"}], "}"}]], "Output",
- CellLabel->"Out[3]=",ExpressionUUID->"0c0432f8-a085-40ce-9be3-ea717133323f"],
+ CellChangeTimes->{3.9763544323016624`*^9, 3.9763591876689796`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"56a0ad36-b857-db44-b176-f77bb286c1a2"],
 
 Cell[BoxData["\<\"  - image_url: thesis\\\\bergen.png\\n    caption: \
 \\\"ISBN: 9789039352557 - Title: RF control for 7T body MRI: in search of the \
@@ -409,13 +409,95 @@ perspectives on the cerebral small vessels with 7T MRI\\\"\\n    name: \
 \\\"Tine Arts\\\"\\n    year: \\\"2021\\\"\\n    isbn: \
 \\\"9789464168037\\\"\\n    title: \\\"New perspectives on the cerebral small \
 vessels with 7T MRI\\\"\\n    link: \
-\\\"https://dspace.library.uu.nl/handle/1874/406832\\\"\\n\"\>"], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"c13a8743-a771-4a8e-90b2-edee49a48472"]
+\\\"https://dspace.library.uu.nl/handle/1874/406832\\\"\\n  - image_url: \
+thesis\\\\annink.png\\n    caption: \\\"ISBN: 9789039373163 - Title: \
+Perinatal asphyxia: predicting and improving outcome\\\"\\n    name: \\\"Kim \
+Annink\\\"\\n    year: \\\"2020\\\"\\n    isbn: \\\"9789039373163\\\"\\n    \
+title: \\\"Perinatal asphyxia: predicting and improving outcome\\\"\\n    \
+link: \\\"https://dspace.library.uu.nl/handle/1874/399467\\\"\\n  - \
+image_url: thesis\\\\veersema.png\\n    caption: \\\"ISBN: 9789464230116 - \
+Title: Epilepsy Surgery for Focal Cortical Dysplasia: Clinicopathological \
+Correlates and Advances in Neuroimaging\\\"\\n    name: \\\"Tim \
+Veersema\\\"\\n    year: \\\"2020\\\"\\n    isbn: \\\"9789464230116\\\"\\n    \
+title: \\\"Epilepsy Surgery for Focal Cortical Dysplasia: Clinicopathological \
+Correlates and Advances in Neuroimaging\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/400260\\\"\\n  - image_url: \
+thesis\\\\lindenholz.png\\n    caption: \\\"ISBN: 9789464165081 - Title: \
+Intracranial Vessel Wall MR Imaging: From Bench to Bedside\\\"\\n    name: \\\
+\"Arjen Lindenholz\\\"\\n    year: \\\"2021\\\"\\n    isbn: \\\"9789464165081\
+\\\"\\n    title: \\\"Intracranial Vessel Wall MR Imaging: From Bench to \
+Bedside\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/402426\\\
+\"\\n  - image_url: thesis\\\\stijnman.png\\n    caption: \\\"ISBN: \
+9789038655260 - Title: MRI safety of implants: measurement and model-based \
+tools for validation and calculation of RF field interactions\\\"\\n    name: \
+\\\"Peter Stijnman\\\"\\n    year: \\\"2022\\\"\\n    isbn: \\\"9789038655260\
+\\\"\\n    title: \\\"MRI safety of implants: measurement and model-based \
+tools for validation and calculation of RF field interactions\\\"\\n    link: \
+\\\"https://research.tue.nl/en/publications/mri-safety-of-implants-\
+measurement-and-model-based-tools-for-vali/\\\"\\n  - image_url: \
+thesis\\\\adams.png\\n    caption: \\\"ISBN: 9789464695793 - Title: \
+Quantitative MRI for measuring cardiac-induced brain tissue pulsations in \
+humans\\\"\\n    name: \\\"Ayodeji Adams\\\"\\n    year: \\\"2023\\\"\\n    \
+isbn: \\\"9789464695793\\\"\\n    title: \\\"Quantitative MRI for measuring \
+cardiac-induced brain tissue pulsations in humans\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/451472\\\"\\n  - image_url: \
+thesis\\\\meliado.png\\n    caption: \\\"ISBN: 9789039375853 - Title: RF \
+safety assessment in ultra-high field MRI: New approaches to reduce local SAR \
+estimation errors\\\"\\n    name: \\\"Flavio Meliad\[OGrave]\\\"\\n    year: \
+\\\"2023\\\"\\n    isbn: \\\"9789039375853\\\"\\n    title: \\\"RF safety \
+assessment in ultra-high field MRI: New approaches to reduce local SAR \
+estimation errors\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/432099\\\"\\n  - image_url: \
+thesis\\\\tuil.png\\n    caption: \\\"ISBN: 9789464731880 - Title: Mapping \
+cerebrovascular hemodynamics with MRI: insights in hemodynamic variation in \
+health and disease\\\"\\n    name: \\\"Rick van Tuijl\\\"\\n    year: \
+\\\"2023\\\"\\n    isbn: \\\"9789464731880\\\"\\n    title: \\\"Mapping \
+cerebrovascular hemodynamics with MRI: insights in hemodynamic variation in \
+health and disease\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/430135\\\"\\n  - image_url: \
+thesis\\\\versteeg.png\\n    caption: \\\"ISBN: 9789039375426 - Title: A \
+plug-and-play gradient insert for fast and silent MRI\\\"\\n    name: \
+\\\"Edwin Versteeg\\\"\\n    year: \\\"2023\\\"\\n    isbn: \\\"9789039375426\
+\\\"\\n    title: \\\"A plug-and-play gradient insert for fast and silent MRI\
+\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/427144\\\"\\n  \
+- image_url: thesis\\\\harrevelt.png\\n    caption: \\\"ISBN: 9789038660714 - \
+Title: Enhancing ultra-high field MRI through data-driven techniques\\\"\\n   \
+ name: \\\"Sebastiaan Harrevelt\\\"\\n    year: \\\"2024\\\"\\n    isbn: \
+\\\"9789038660714\\\"\\n    title: \\\"Enhancing ultra-high field MRI through \
+data-driven techniques\\\"\\n    link: \
+\\\"https://research.tue.nl/en/publications/enhancing-ultra-high-field-mri-\
+through-data-driven-techniques/\\\"\\n  - image_url: thesis\\\\heide.png\\n   \
+ caption: \\\"ISBN: 9789039376393 - Title: In vivo validation of Magnetic \
+Resonance Spin Tomography in Time-domain\\\"\\n    name: \\\"Oscar van der \
+Heide\\\"\\n    year: \\\"2024\\\"\\n    isbn: \\\"9789039376393\\\"\\n    \
+title: \\\"In vivo validation of Magnetic Resonance Spin Tomography in \
+Time-domain\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/433708\\\"\\n  - image_url: \
+thesis\\\\zwartbol.png\\n    caption: \\\"ISBN: 9789493330801 - Title: \
+Connecting Large and Small Vessels in Cerebrovascular Disease\\\"\\n    name: \
+\\\"Maarten Zwartbol\\\"\\n    year: \\\"2024\\\"\\n    isbn: \
+\\\"9789493330801\\\"\\n    title: \\\"Connecting Large and Small Vessels in \
+Cerebrovascular Disease\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/451528\\\"\\n  - image_url: \
+thesis\\\\onkenhout.png\\n    caption: \\\"ISBN: 9789465064741 - Title: \
+Exploring Cerebral Perforating Artery Function in Small Vessel Disease With 7 \
+Tesla MRI\\\"\\n    name: \\\"Laurien Onkenhout\\\"\\n    year: \
+\\\"2025\\\"\\n    isbn: \\\"9789465064741\\\"\\n    title: \\\"Exploring \
+Cerebral Perforating Artery Function in Small Vessel Disease With 7 Tesla MRI\
+\\\"\\n    link: \\\"https://dspace.library.uu.nl/handle/1874/457140\\\"\\n  \
+- image_url: thesis\\\\shams.png\\n    caption: \\\"ISBN: 9789083494746 - \
+Title: Methodological Advances in Ultra-high Field Metabolic MRI in \
+Cancer\\\"\\n    name: \\\"Zahra Shams\\\"\\n    year: \\\"2025\\\"\\n    \
+isbn: \\\"9789083494746\\\"\\n    title: \\\"Methodological Advances in \
+Ultra-high Field Metabolic MRI in Cancer\\\"\\n    link: \
+\\\"https://dspace.library.uu.nl/handle/1874/457095\\\"\\n\"\>"], "Output",
+ CellChangeTimes->{3.9763544323016624`*^9, 3.976359187671007*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"9da7632d-9cdd-cd40-861d-2f9091ef3e72"]
 }, Open  ]]
 },
-WindowSize->{1904, 1109},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+WindowSize->{1428, 819.75},
+WindowMargins->{{9, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c23b2a9b-db8d-46e4-9242-1654fe5773a1"
 ]
@@ -431,10 +513,10 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 3035, 78, 230, "Input",ExpressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
-Cell[3618, 102, 323, 5, 33, "Output",ExpressionUUID->"f8634e28-5f10-4df0-8f08-3324c98764b1"],
-Cell[3944, 109, 298, 5, 33, "Output",ExpressionUUID->"0c0432f8-a085-40ce-9be3-ea717133323f"],
-Cell[4245, 116, 21473, 296, 7174, "Output",ExpressionUUID->"c13a8743-a771-4a8e-90b2-edee49a48472"]
+Cell[580, 22, 3028, 76, 163, "Input",ExpressionUUID->"fbc16ba9-93d7-40c7-b31d-fa89ec1ba06f"],
+Cell[3611, 100, 389, 6, 24, "Output",ExpressionUUID->"b55c2a10-4c33-314a-95b8-11d510ba08b6"],
+Cell[4003, 108, 366, 6, 24, "Output",ExpressionUUID->"56a0ad36-b857-db44-b176-f77bb286c1a2"],
+Cell[4372, 116, 27442, 378, 6417, "Output",ExpressionUUID->"9da7632d-9cdd-cd40-861d-2f9091ef3e72"]
 }, Open  ]]
 }
 ]
